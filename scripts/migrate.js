@@ -40,9 +40,10 @@ async function runMigrations() {
           difficulty VARCHAR(20) DEFAULT 'medium' CHECK (difficulty IN ('easy', 'medium', 'hard')),
           grade VARCHAR(50),
           author_id UUID REFERENCES users(id) ON DELETE CASCADE,
+          exam_paper_id UUID REFERENCES exam_papers(id) ON DELETE SET NULL,
           upvotes INTEGER DEFAULT 0,
           downvotes INTEGER DEFAULT 0,
-          embedding VECTOR(1536),
+          embedding VECTOR(1024),
           created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
           updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
         );
@@ -86,7 +87,7 @@ async function runMigrations() {
           author_id UUID REFERENCES users(id) ON DELETE CASCADE,
           view_count INTEGER DEFAULT 0,
           rating DECIMAL(3,2) DEFAULT 0,
-          embedding VECTOR(1536),
+          embedding VECTOR(1024),
           created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
           updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
         );
@@ -113,7 +114,7 @@ async function runMigrations() {
           answer_key_url VARCHAR(500),
           uploader_id UUID REFERENCES users(id) ON DELETE CASCADE,
           download_count INTEGER DEFAULT 0,
-          embedding VECTOR(1536),
+          embedding VECTOR(1024),
           created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
           updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
         );
@@ -205,7 +206,7 @@ async function runMigrations() {
     await supabaseAdmin.rpc('exec_sql', {
       sql: `
         CREATE OR REPLACE FUNCTION match_documents(
-          query_embedding VECTOR(1536),
+          query_embedding VECTOR(1024),
           match_threshold FLOAT,
           match_count INT,
           table_name TEXT
@@ -284,4 +285,4 @@ if (require.main === module) {
   runMigrations();
 }
 
-module.exports = { runMigrations }; 
+module.exports = { runMigrations };

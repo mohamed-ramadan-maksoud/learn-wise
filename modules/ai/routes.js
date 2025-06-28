@@ -116,15 +116,38 @@ async function aiRoutes(fastify, options) {
               .in('id', itemIds);
 
             if (!error && items) {
-              // Format items for RAG
-              const formattedItems = items.map(item => ({
-                id: item.id,
-                type: typeLabel,
-                title: item.title,
-                content: item.content || item.description || '',
-                similarity: similarItems.find(s => s.id === item.id)?.similarity || 0
-              }));
-
+              let formattedItems;
+              if (tableName === 'questions') {
+                // Collect all unique exam_paper_ids
+                const examPaperIds = [...new Set(items.map(q => q.exam_paper_id).filter(Boolean))];
+                let examMetaMap = {};
+                if (examPaperIds.length > 0) {
+                  const { data: examPapers } = await fastify.supabase
+                    .from('exam_papers')
+                    .select('id, title, subject, year, grade, term, exam_type')
+                    .in('id', examPaperIds);
+                  examMetaMap = (examPapers || []).reduce((map, e) => {
+                    map[e.id] = e;
+                    return map;
+                  }, {});
+                }
+                formattedItems = items.map(item => ({
+                  id: item.id,
+                  type: typeLabel,
+                  title: item.title,
+                  content: item.content || item.description || '',
+                  similarity: similarItems.find(s => s.id === item.id)?.similarity || 0,
+                  examMeta: item.exam_paper_id ? examMetaMap[item.exam_paper_id] : undefined
+                }));
+              } else {
+                formattedItems = items.map(item => ({
+                  id: item.id,
+                  type: typeLabel,
+                  title: item.title,
+                  content: item.content || item.description || '',
+                  similarity: similarItems.find(s => s.id === item.id)?.similarity || 0
+                }));
+              }
               allSources.push(...formattedItems);
             }
           }
