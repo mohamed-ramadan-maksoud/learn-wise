@@ -33,6 +33,18 @@ class AIHelper {
   }
 
   /**
+   * Extract unique exam paper IDs from items
+   */
+  static extractExamPaperIds(items) {
+    const examPaperIds = items
+      .map(item => item.exam_paper_id)
+      .filter(id => id !== null && id !== undefined);
+
+    // Return unique IDs only
+    return [...new Set(examPaperIds)];
+  }
+
+  /**
    * Create exam metadata map from exam papers array
    */
   static createExamMetaMap(examPapers) {
@@ -116,13 +128,6 @@ class AIHelper {
         }
       ]
     };
-  }
-
-  /**
-   * Extract unique exam paper IDs from questions
-   */
-  static extractExamPaperIds(items) {
-    return [...new Set(items.map(q => q.exam_paper_id).filter(Boolean))];
   }
 }
 

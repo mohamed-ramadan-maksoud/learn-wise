@@ -106,6 +106,7 @@ class AIService {
             // Get exam metadata for questions
             if (tableName === 'questions') {
               const examPaperIds = AIHelper.extractExamPaperIds(items);
+
               if (examPaperIds.length > 0) {
                 const examPapers = await this.repository.getExamPapersByIds(examPaperIds);
                 examMetaMap = AIHelper.createExamMetaMap(examPapers);

@@ -71,16 +71,30 @@ const aiSchemas = {
             content: { type: 'string' },
             similarity: { type: 'number' },
             choices: { type: 'array', items: { type: 'string' } },
-            meta_data: { type: 'object' },
+            meta_data: { type: 'object', additionalProperties: true },
             tags: { type: 'array', items: { type: 'string' } },
             grade: { type: 'string' },
-            examMeta: { type: 'object' }
-          }
+            examMeta: {
+              type: 'object',
+              additionalProperties: true,
+              properties: {
+                id: { type: 'string' },
+                title: { type: 'string' },
+                subject: { type: 'string' },
+                year: { type: 'number' },
+                grade: { type: 'string' },
+                term: { type: 'string' },
+                exam_type: { type: ['string', 'null'] }
+              }
+            }
+          },
+          additionalProperties: true
         }
       },
       query: { type: 'string' },
       timestamp: { type: 'string', format: 'date-time' }
-    }
+    },
+    additionalProperties: true
   },
 
   // Vector search request schema
