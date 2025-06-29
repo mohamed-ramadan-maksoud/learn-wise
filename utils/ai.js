@@ -1,5 +1,5 @@
 // Switch to configurable AI provider
-const { generateEmbedding, generateRAGAnswer, VECTOR_DIMENSION, SIMILARITY_THRESHOLD } = require('./ai-provider');
+const { generateEmbedding, generateRAGAnswer, generateStructuredRAGAnswer, VECTOR_DIMENSION, SIMILARITY_THRESHOLD } = require('./ai-provider');
 
 /**
  * Perform vector similarity search
@@ -34,6 +34,7 @@ async function vectorSearch(queryEmbedding, table, limit = 5) {
 module.exports = {
   generateEmbedding,
   generateRAGAnswer,
+  generateStructuredRAGAnswer,
   vectorSearch,
   VECTOR_DIMENSION,
   SIMILARITY_THRESHOLD
