@@ -66,7 +66,9 @@ const aiSchemas = {
             type: { type: 'string' },
             title: { type: 'string' },
             content: { type: 'string' },
-            similarity: { type: 'number' }
+            similarity: { type: 'number' },
+            choices: { type: 'array', items: { type: 'string' } },
+            meta_data: { type: 'object' }
           }
         },
         description: 'Sources used to generate the answer'
@@ -129,4 +131,4 @@ const aiSchemas = {
   }
 };
 
-module.exports = aiSchemas; 
+module.exports = aiSchemas;

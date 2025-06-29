@@ -87,7 +87,11 @@ async function generateRAGAnswer(query, context) {
         }
       }
       if (item.type === 'question') {
-        return `Question: ${item.title || ''}${meta}\nContent: ${item.content || ''}`;
+        let choicesText = '';
+        if (item.choices && Array.isArray(item.choices) && item.choices.length > 0) {
+          choicesText = `\nChoices: ${item.choices.join(' | ')}`;
+        }
+        return `Question: ${item.title || ''}${meta}\nContent: ${item.content || ''}${choicesText}`;
       } else if (item.type === 'tutorial') {
         return `Tutorial: ${item.title || ''}\nContent: ${item.content || ''}`;
       } else if (item.type === 'exam') {

@@ -637,6 +637,79 @@ async function examRoutes(fastify, options) {
       });
     }
   });
+
+  // Bulk upload questions endpoint
+  fastify.post('/questions/bulk', {
+    schema: {
+      description: 'Bulk upload questions for an exam paper',
+      tags: ['Exams'],
+      security: [{ bearerAuth: [] }],
+      body: {
+        type: 'object',
+        required: ['questions'],
+        properties: {
+          questions: {
+            type: 'array',
+            items: {
+              type: 'object',
+              required: ['title', 'content', 'exam_paper_id'],
+              properties: {
+                title: { type: 'string' },
+                content: { type: 'string' },
+                exam_paper_id: { type: 'string' },
+                question_number: { type: 'integer' },
+                meta_data: { type: 'object' },
+                choices: { type: 'array', items: { type: 'string' }, nullable: true },
+                // Add other fields as needed
+              }
+            }
+          }
+        }
+      },
+      response: {
+        200: {
+          type: 'object',
+          properties: {
+            success: { type: 'boolean' },
+            inserted: { type: 'number' },
+            questions: { type: 'array', items: { type: 'object' } }
+          }
+        },
+        400: {
+          type: 'object',
+          properties: {
+            success: { type: 'boolean' },
+            message: { type: 'string' }
+          }
+        }
+      }
+    },
+    preHandler: [fastify.authenticate, fastify.authorize(['teacher', 'admin'])]
+  }, async (request, reply) => {
+    try {
+      const { questions } = request.body;
+      if (!Array.isArray(questions) || questions.length === 0) {
+        return reply.code(400).send({ success: false, message: 'Questions array is required' });
+      }
+      // Optionally, generate embeddings for each question
+      const questionsWithEmbeddings = await Promise.all(questions.map(async q => ({
+        ...q,
+        id: q.id || uuidv4(),
+        question_number: q.question_number,
+        meta_data: q.meta_data || {},
+        choices: q.choices || (q.tags ? q.tags : undefined),
+        embedding: q.embedding || await generateEmbedding(`${q.title} ${q.content}`)
+      })));
+      const { data, error } = await fastify.supabase
+        .from('questions')
+        .insert(questionsWithEmbeddings)
+        .select();
+      if (error) throw error;
+      reply.send({ success: true, inserted: data.length, questions: data });
+    } catch (error) {
+      reply.code(400).send({ success: false, message: error.message });
+    }
+  });
 }
 
-module.exports = examRoutes; 
+module.exports = examRoutes;

@@ -136,6 +136,10 @@ async function aiRoutes(fastify, options) {
                   type: typeLabel,
                   title: item.title,
                   content: item.content || item.description || '',
+                  tags: item.tags,
+                  grade: item.grade,
+                  choices: item.choices || [],
+                  meta_data: item.meta_data || undefined,
                   similarity: similarItems.find(s => s.id === item.id)?.similarity || 0,
                   examMeta: item.exam_paper_id ? examMetaMap[item.exam_paper_id] : undefined
                 }));
