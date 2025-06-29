@@ -208,6 +208,25 @@ async function aiRoutes(fastify, options) {
 
       console.log('[RAG] Top sources for answer:', topSources);
 
+      // Helper to build RAG response objects
+      function buildRAGResponse({
+        success = true,
+        query_answer = undefined,
+        question_exam_answer = undefined,
+        generated_similar_questions = undefined,
+        answer = undefined,
+        sources = [],
+        query = '',
+        timestamp = undefined
+      }) {
+        const response = { success, sources, query, timestamp: timestamp || new Date().toISOString() };
+        if (typeof query_answer !== 'undefined') response.query_answer = query_answer;
+        if (typeof question_exam_answer !== 'undefined') response.question_exam_answer = question_exam_answer;
+        if (typeof generated_similar_questions !== 'undefined') response.generated_similar_questions = generated_similar_questions;
+        if (typeof answer !== 'undefined') response.answer = answer;
+        return response;
+      }
+
       if (structured) {
         try {
           // Generate structured RAG answer
@@ -237,15 +256,13 @@ async function aiRoutes(fastify, options) {
             structuredAnswer = testStructuredAnswer;
           }
 
-          const responseData = {
-            success: true,
+          const responseData = buildRAGResponse({
             query_answer: structuredAnswer.query_answer,
             question_exam_answer: structuredAnswer.question_exam_answer,
             generated_similar_questions: structuredAnswer.generated_similar_questions,
             sources: topSources,
-            query,
-            timestamp: new Date().toISOString()
-          };
+            query
+          });
 
           console.log('[RAG] Sending structured response:', JSON.stringify(responseData, null, 2));
           return reply.send(responseData);
@@ -255,48 +272,38 @@ async function aiRoutes(fastify, options) {
           // Fallback to regular response with structured format
           try {
             const regularAnswer = await generateRAGAnswer(query, topSources);
-            const fallbackData = {
-              success: true,
+            const fallbackData = buildRAGResponse({
               query_answer: regularAnswer,
               question_exam_answer: "Unable to generate detailed exam answer due to AI service limitations.",
               generated_similar_questions: [],
               sources: topSources,
-              query,
-              timestamp: new Date().toISOString()
-            };
-
+              query
+            });
             console.log('[RAG] Sending fallback structured response:', JSON.stringify(fallbackData, null, 2));
             reply.send(fallbackData);
-            return; // Ensure we don't continue execution
+            return;
           } catch (fallbackError) {
             console.error('[RAG] Fallback also failed:', fallbackError);
-            const errorData = {
-              success: true,
+            const errorData = buildRAGResponse({
               query_answer: "Unable to generate AI response at this time. Please check your query or try again later.",
               question_exam_answer: "AI service temporarily unavailable.",
               generated_similar_questions: [],
               sources: topSources,
-              query,
-              timestamp: new Date().toISOString()
-            };
-
+              query
+            });
             console.log('[RAG] Sending error structured response:', JSON.stringify(errorData, null, 2));
             reply.send(errorData);
-            return; // Ensure we don't continue execution
+            return;
           }
         }
       } else {
         // Generate regular RAG answer
         const answer = await generateRAGAnswer(query, topSources);
-
-        const regularData = {
-          success: true,
+        const regularData = buildRAGResponse({
           answer,
           sources: topSources,
-          query,
-          timestamp: new Date().toISOString()
-        };
-
+          query
+        });
         console.log('[RAG] Sending regular response:', JSON.stringify(regularData, null, 2));
         reply.send(regularData);
       }
@@ -498,21 +505,49 @@ async function aiRoutes(fastify, options) {
 
           if (similarItems.length > 0) {
             const itemIds = similarItems.map(item => item.id);
-            
             const { data: items, error } = await fastify.supabase
               .from(table)
               .select('*')
               .in('id', itemIds);
 
             if (!error && items) {
-              const formattedItems = items.map(item => ({
-                id: item.id,
-                title: item.title,
-                content: item.content || item.description || '',
-                similarity: similarItems.find(s => s.id === item.id)?.similarity || 0
-              }));
-
-              results[table] = formattedItems;
+              let formattedItems;
+              if (table === 'questions') {
+                // Collect all unique exam_paper_ids
+                const examPaperIds = [...new Set(items.map(q => q.exam_paper_id).filter(Boolean))];
+                let examMetaMap = {};
+                if (examPaperIds.length > 0) {
+                  const { data: examPapers } = await fastify.supabase
+                    .from('exam_papers')
+                    .select('id, title, subject, year, grade, term, exam_type')
+                    .in('id', examPaperIds);
+                  examMetaMap = (examPapers || []).reduce((map, e) => {
+                    map[e.id] = e;
+                    return map;
+                  }, {});
+                }
+                formattedItems = items.map(item => ({
+                  id: item.id,
+                  type: 'question',
+                  title: item.title,
+                  content: item.content || item.description || '',
+                  tags: item.tags,
+                  grade: item.grade,
+                  choices: item.choices || [],
+                  meta_data: item.meta_data || undefined,
+                  similarity: similarItems.find(s => s.id === item.id)?.similarity || 0,
+                  examMeta: item.exam_paper_id ? examMetaMap[item.exam_paper_id] : undefined
+                }));
+              } else {
+                formattedItems = items.map(item => ({
+                  id: item.id,
+                  type: 'tutorial',
+                  title: item.title,
+                  content: item.content || item.description || '',
+                  similarity: similarItems.find(s => s.id === item.id)?.similarity || 0
+                }));
+              }
+              results[table].push(...formattedItems);
               totalResults += formattedItems.length;
             }
           }
