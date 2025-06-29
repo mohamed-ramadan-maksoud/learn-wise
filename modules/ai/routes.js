@@ -71,7 +71,8 @@ async function aiRoutes(fastify, options) {
                   question: { type: 'string' },
                   subject: { type: 'string' },
                   difficulty: { type: 'string' },
-                  topic: { type: 'string' }
+                  topic: { type: 'string' },
+                  choices: { type: 'array', items: { type: 'string' } } // <-- Added choices property
                 }
               }
             },

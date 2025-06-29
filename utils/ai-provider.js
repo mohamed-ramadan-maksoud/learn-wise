@@ -60,86 +60,98 @@ async function generateEmbedding(text) {
 
 /**
  * Generate a RAG answer for a query using the provided context.
+ * Retries up to 3 times if the answer is not structured.
  * @param {string} query
  * @param {Array} context
- * @returns {Promise<string>}
+ * @param {Object} [options]
+ * @returns {Promise<Object>} Always returns a structured response.
  */
-async function generateRAGAnswer(query, context) {
-  try {
-    console.log('[AI PROVIDER] RAG using:', PROVIDER, 'Cohere loaded:', !!cohere);
+async function generateRAGAnswer(query, context, options = {}) {
+  let attempts = 0;
+  let result;
+  while (attempts < 3) {
+    attempts++;
+    try {
+      console.log('[AI PROVIDER] RAG using:', PROVIDER, 'Cohere loaded:', !!cohere);
 
-    const contextText = context.map(item => {
-      let meta = '';
-      if (item.examMeta !== undefined) {
-        if (typeof item.examMeta === 'object' && item.examMeta !== null) {
-          // Format examMeta fields, skipping empty ones
-          const metaFields = [
-            item.examMeta.title && `Title: ${item.examMeta.title}`,
-            item.examMeta.subject && `Subject: ${item.examMeta.subject}`,
-            item.examMeta.year && `Year: ${item.examMeta.year}`,
-            item.examMeta.grade && `Grade: ${item.examMeta.grade}`,
-            item.examMeta.term && `Term: ${item.examMeta.term}`,
-            item.examMeta.exam_type && `Type: ${item.examMeta.exam_type}`
-          ].filter(Boolean).join(', ');
-          meta = metaFields ? `\n[Exam Info: ${metaFields}]` : '';
-        } else {
-          console.warn('[RAG] examMeta is present but not an object:', item.examMeta);
-        }
-      }
-      if (item.type === 'question') {
-        let choicesText = '';
-        if (item.choices && Array.isArray(item.choices) && item.choices.length > 0) {
-          choicesText = `\nChoices: ${item.choices.join(' | ')}`;
-        }
-        return `Question: ${item.title || ''}${meta}\nContent: ${item.content || ''}${choicesText}`;
-      } else if (item.type === 'tutorial') {
-        return `Tutorial: ${item.title || ''}\nContent: ${item.content || ''}`;
-      } else if (item.type === 'exam') {
-        return `Exam Paper: ${item.title || ''}\nDescription: ${item.description || ''}`;
-      } else {
-        console.warn('[RAG] Unknown context item type:', item.type, item);
-        return '';
-      }
-    }).join('\n\n');
-
-    const prompt = `You are an educational assistant for Egyptian secondary school students.\nAnswer the following question based on the provided context.\nIf the context doesn't contain enough information, say so and provide a general helpful response.\n\nContext:\n${contextText}\n\nQuestion: ${query}\n\nAnswer:`;
-
-    if (PROVIDER === 'cohere' && cohere) {
-      const response = await cohere.generate({
-        model: process.env.COHERE_MODEL || 'command-r-plus',
-        prompt,
-        max_tokens: 500,
-        temperature: 0.7,
-      });
-      if (!response.generations || !Array.isArray(response.generations) || !response.generations[0]?.text) {
-        throw new Error('Cohere generation response missing text');
-      }
-      return response.generations[0].text.trim();
-    } else {
-      const response = await openai.chat.completions.create({
-        model: process.env.OPENAI_MODEL || 'gpt-3.5-turbo',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are a helpful educational assistant for Egyptian secondary school students. Provide clear, accurate, and helpful answers.'
-          },
-          {
-            role: 'user',
-            content: prompt
+      const contextText = context.map(item => {
+        let meta = '';
+        if (item.examMeta !== undefined) {
+          if (typeof item.examMeta === 'object' && item.examMeta !== null) {
+            // Format examMeta fields, skipping empty ones
+            const metaFields = [
+              item.examMeta.title && `Title: ${item.examMeta.title}`,
+              item.examMeta.subject && `Subject: ${item.examMeta.subject}`,
+              item.examMeta.year && `Year: ${item.examMeta.year}`,
+              item.examMeta.grade && `Grade: ${item.examMeta.grade}`,
+              item.examMeta.term && `Term: ${item.examMeta.term}`,
+              item.examMeta.exam_type && `Type: ${item.examMeta.exam_type}`
+            ].filter(Boolean).join(', ');
+            meta = metaFields ? `\n[Exam Info: ${metaFields}]` : '';
+          } else {
+            console.warn('[RAG] examMeta is present but not an object:', item.examMeta);
           }
-        ],
-        max_tokens: 500,
-        temperature: 0.7,
-      });
-      if (!response.choices || !Array.isArray(response.choices) || !response.choices[0]?.message?.content) {
-        throw new Error('OpenAI chat completion response missing content');
+        }
+        if (item.type === 'question') {
+          let choicesText = '';
+          if (item.choices && Array.isArray(item.choices) && item.choices.length > 0) {
+            choicesText = `\nChoices: ${item.choices.join(' | ')}`;
+          }
+          return `Question: ${item.title || ''}${meta}\nContent: ${item.content || ''}${choicesText}`;
+        } else if (item.type === 'tutorial') {
+          return `Tutorial: ${item.title || ''}\nContent: ${item.content || ''}`;
+        } else if (item.type === 'exam') {
+          return `Exam Paper: ${item.title || ''}\nDescription: ${item.description || ''}`;
+        } else {
+          console.warn('[RAG] Unknown context item type:', item.type, item);
+          return '';
+        }
+      }).join('\n\n');
+
+      const prompt = `You are an educational assistant for Egyptian secondary school students.\nAnswer the following question based on the provided context.\nIf the context doesn't contain enough information, say so and provide a general helpful response.\n\nContext:\n${contextText}\n\nQuestion: ${query}\n\nAnswer:`;
+
+      if (PROVIDER === 'cohere' && cohere) {
+        const response = await cohere.generate({
+          model: process.env.COHERE_MODEL || 'command-r-plus',
+          prompt,
+          max_tokens: 500,
+          temperature: 0.7,
+        });
+        if (!response.generations || !Array.isArray(response.generations) || !response.generations[0]?.text) {
+          throw new Error('Cohere generation response missing text');
+        }
+        return response.generations[0].text.trim();
+      } else {
+        const response = await openai.chat.completions.create({
+          model: process.env.OPENAI_MODEL || 'gpt-3.5-turbo',
+          messages: [
+            {
+              role: 'system',
+              content: 'You are a helpful educational assistant for Egyptian secondary school students. Provide clear, accurate, and helpful answers.'
+            },
+            {
+              role: 'user',
+              content: prompt
+            }
+          ],
+          max_tokens: 500,
+          temperature: 0.7,
+        });
+        if (!response.choices || !Array.isArray(response.choices) || !response.choices[0]?.message?.content) {
+          throw new Error('OpenAI chat completion response missing content');
+        }
+        return response.choices[0].message.content.trim();
       }
-      return response.choices[0].message.content.trim();
+    } catch (error) {
+      if (attempts >= 3) throw error;
     }
-  } catch (error) {
-    console.error('Error generating RAG answer:', error);
-    throw new Error('Failed to generate answer');
   }
+  // If all attempts fail, return a fallback structured response
+  return buildStructuredRAGResponse({
+    answer_query: 'Unable to generate a structured response at this time.',
+    answer_question: 'Unable to generate a structured response at this time.',
+    similar_questions: []
+  });
 }
 
 /**
@@ -182,30 +194,7 @@ async function generateStructuredRAGAnswer(query, context) {
       }
     }).join('\n\n');
 
-    const prompt = `You are an educational assistant for Egyptian secondary school students.
-Based on the provided context, generate a structured response in JSON format with exactly these fields:
-
-{
-  "query_answer": "Direct answer to the student's question (simple, clear explanation)",
-  "question_exam_answer": "Detailed exam-focused answer with step-by-step solution if applicable",
-  "generated_similar_questions": [
-    {
-      "question": "Similar question text",
-      "subject": "Subject name",
-      "difficulty": "easy/medium/hard",
-      "topic": "Topic name"
-    }
-  ]
-}
-
-Generate up to 5 similar questions that are related to the query and context.
-
-Context:
-${contextText}
-
-Question: ${query}
-
-Respond only with valid JSON:`;
+    const prompt = `You are an educational assistant for Egyptian secondary school students.\nBased on the provided context, generate a structured response in JSON format with exactly these fields:\n\n{\n  "query_answer": "Direct answer to the student's question (simple, clear explanation)",\n  "question_exam_answer": "Detailed exam-focused answer with step-by-step solution if applicable",\n  "generated_similar_questions": [\n    {\n      "question": "Similar question text",\n      "subject": "Subject name",\n      "difficulty": "easy/medium/hard",\n      "topic": "Topic name",\n      "choices": ["Option 1", "Option 2", "Option 3", "Option 4"]\n    }\n  ]\n}\n\nFor each generated similar question, include a "choices" array with at least 4 plausible options.\n\nContext:\n${contextText}\n\nQuestion: ${query}\n\nRespond only with valid JSON:`;
 
     let responseText;
     if (PROVIDER === 'cohere' && cohere) {
