@@ -46,6 +46,11 @@ const aiSchemas = {
         minimum: 1,
         maximum: 10,
         description: 'Maximum number of results to retrieve'
+      },
+      structured: {
+        type: 'boolean',
+        default: false,
+        description: 'Whether to return a structured response with query_answer, question_exam_answer, and generated_similar_questions'
       }
     }
   },
@@ -56,6 +61,52 @@ const aiSchemas = {
       answer: {
         type: 'string',
         description: 'Generated answer'
+      },
+      sources: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            id: { type: 'string' },
+            type: { type: 'string' },
+            title: { type: 'string' },
+            content: { type: 'string' },
+            similarity: { type: 'number' },
+            choices: { type: 'array', items: { type: 'string' } },
+            meta_data: { type: 'object' }
+          }
+        },
+        description: 'Sources used to generate the answer'
+      },
+      query: { type: 'string' },
+      timestamp: { type: 'string', format: 'date-time' }
+    }
+  },
+  structuredRagResponse: {
+    type: 'object',
+    properties: {
+      success: { type: 'boolean' },
+      query_answer: {
+        type: 'string',
+        description: 'Answer to the user query'
+      },
+      question_exam_answer: {
+        type: 'string',
+        description: 'Detailed answer for exam/question context'
+      },
+      generated_similar_questions: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            question: { type: 'string' },
+            subject: { type: 'string' },
+            difficulty: { type: 'string' },
+            topic: { type: 'string' }
+          }
+        },
+        maxItems: 5,
+        description: 'Up to 5 generated similar questions'
       },
       sources: {
         type: 'array',
