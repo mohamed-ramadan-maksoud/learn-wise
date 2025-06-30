@@ -92,6 +92,7 @@ fastify.register(require('./modules/auth/routes'), { prefix: '/api/v1/auth' });
 fastify.register(require('./modules/questions/routes'), { prefix: '/api/v1/questions' });
 fastify.register(require('./modules/ai/routes'), { prefix: '/api/v1/ai' });
 fastify.register(require('./modules/exams/routes'), { prefix: '/api/v1/exams' });
+fastify.register(require('./modules/tutorials/routes'), { prefix: '/api/v1/tutorials' });
 
 // Health check endpoint
 fastify.get('/health', {

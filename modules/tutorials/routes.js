@@ -1,8 +1,12 @@
 const tutorialSchemas = require('../../schemas/tutorials');
 const { generateEmbedding, vectorSearch } = require('../../utils/ai');
 const { v4: uuidv4 } = require('uuid');
+const TutorialService = require('./tutorial.service');
+const TutorialHelper = require('./tutorial.helper');
 
 async function tutorialRoutes(fastify, options) {
+  const service = new TutorialService(fastify.supabase);
+
   // Create a new tutorial
   fastify.post('/', {
     schema: {
@@ -577,6 +581,112 @@ async function tutorialRoutes(fastify, options) {
       });
     }
   });
+
+  // Upload/Upsert endpoint
+  fastify.post('/upload', {
+    schema: {
+      description: 'Upload or update a tutorial with paragraph-level embeddings',
+      tags: ['Tutorials'],
+      body: {
+        type: 'object',
+        required: ['id', 'title', 'content', 'subject', 'author_id'],
+        properties: {
+          id: { type: 'string' },
+          title: { type: 'string' },
+          content: { type: 'string' },
+          subject: { type: 'string' },
+          chapter: { type: 'string' },
+          tags: { type: 'array', items: { type: 'string' } },
+          difficulty: { type: 'string' },
+          type: { type: 'string' },
+          media_url: { type: ['string', 'null'] },
+          duration: { type: ['number', 'null'] },
+          author_id: { type: 'string' }
+        }
+      },
+      response: { 200: { type: 'object' } }
+    }
+  }, async (request, reply) => {
+    const payload = request.body;
+    // Always chunk content into paragraphs
+    payload.paragraphs = TutorialHelper.chunkContentToParagraphs(payload.content);
+    const results = await service.uploadTutorial(payload);
+    reply.send({ success: true, results });
+  });
+
+  // RAG search endpoint
+  fastify.post('/rag-search', {
+    schema: {
+      description: 'RAG search for tutorial paragraphs',
+      tags: ['Tutorials'],
+      body: {
+        type: 'object',
+        required: ['query'],
+        properties: {
+          query: { type: 'string', description: 'Search query for tutorial content' },
+          maxResults: { type: 'number', default: 5, description: 'Maximum number of results' }
+        }
+      },
+      response: {
+        200: {
+          type: 'object',
+          properties: {
+            success: { type: 'boolean' },
+            query_answer: { type: 'string', description: 'AI-generated answer to the query' },
+            summary_by_ai: { type: 'string', description: 'AI-generated summary of tutorial content' },
+            generated_questions: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  question: { type: 'string' },
+                  subject: { type: 'string' },
+                  difficulty: { type: 'string' },
+                  topic: { type: 'string' },
+                  choices: {
+                    type: 'array',
+                    items: { type: 'string' }
+                  }
+                }
+              }
+            },
+            sources: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  id: { type: 'string' },
+                  title: { type: 'string' },
+                  subject: { type: 'string' },
+                  chapter: { type: 'string' },
+                  paragraph_number: { type: 'number' },
+                  content: { type: 'string' },
+                  similarity: { type: 'number' }
+                }
+              }
+            },
+            query: { type: 'string' },
+            timestamp: { type: 'string' }
+          }
+        },
+        400: {
+          type: 'object',
+          properties: {
+            success: { type: 'boolean' },
+            message: { type: 'string' }
+          }
+        }
+      }
+    }
+  }, async (request, reply) => {
+    const { query, maxResults = 5 } = request.body;
+    const { data, error } = await service.ragSearch(query, maxResults);
+    if (error) {
+      reply.code(400).send({ success: false, message: error.message });
+    } else {
+      reply.send(data);
+    }
+  });
 }
 
-module.exports = tutorialRoutes; 
+module.exports = tutorialRoutes;
