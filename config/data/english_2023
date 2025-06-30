@@ -1,0 +1,605 @@
+{
+  "questions":[
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I think I can share the wisdom my father ...... over his life.",
+    "subject": "English",
+    "tags": ["hated", "gained", "related", "convinced"],
+    "choices": ["hated", "gained", "related", "convinced"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 1
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Naguib Mahfouz was an ...... writer. Many young authors were affected by his style.",
+    "subject": "English",
+    "tags": ["infertile", "uninspired", "influential", "uninfected"],
+    "choices": ["infertile", "uninspired", "influential", "uninfected"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 2
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The elder brother usually ...... responsibility for his young sisters.",
+    "subject": "English",
+    "tags": ["makes", "does", "achieves", "takes"],
+    "choices": ["makes", "does", "achieves", "takes"],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 3
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "...... very ill, he needed an urgent operation.",
+    "subject": "English",
+    "tags": ["Been", "Being", "To be", "Be"],
+    "choices": ["Been", "Being", "To be", "Be"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 4
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The synonym of the word 'forum' is ......",
+    "subject": "English",
+    "tags": ["mission", "division", "profit", "meeting"],
+    "choices": ["mission", "division", "profit", "meeting"],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 5
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The antonym of the word 'picturesque' is ......",
+    "subject": "English",
+    "tags": ["ugly", "lovely", "terrific", "colourful"],
+    "choices": ["ugly", "lovely", "terrific", "colourful"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 6
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "My brother is a/an ...... doctor. He will get his degree next year.",
+    "subject": "English",
+    "tags": ["trainer", "trainee", "employee", "employer"],
+    "choices": ["trainer", "trainee", "employee", "employer"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 7
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The man with a long moustache was ...... . The little boy ran away when he saw him.",
+    "subject": "English",
+    "tags": ["fright", "frightened", "frightening", "frightens"],
+    "choices": ["fright", "frightened", "frightening", "frightens"],
+    "difficulty": "hard",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 8
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "A brilliant worker has ...... a great idea for increasing the factory productivity.",
+    "subject": "English",
+    "tags": ["got out of", "come up with", "kept away from", "run away from"],
+    "choices": ["got out of", "come up with", "kept away from", "run away from"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 9
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The journey took ...... I expected, so I got very tired.",
+    "subject": "English",
+    "tags": ["longer than", "as long", "so longer", "long as"],
+    "choices": ["longer than", "as long", "so longer", "long as"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 10
+  },
+  {
+    "title": "Writing",
+    "content": "To start the conclusion paragraph, you can use \"......\"",
+    "subject": "English",
+    "tags": ["In addition to", "Even though", "To sum up", "To start with"],
+    "choices": ["In addition to", "Even though", "To sum up", "To start with"],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 11
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Your car was though to ...... by a fortune.",
+    "subject": "English",
+    "tags": ["have been bought", "buy", "have bought", "bought"],
+    "choices": ["have been bought", "buy", "have bought", "bought"],
+    "difficulty": "hard",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 12
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "After Ahmed has filled in the application from, he will ......",
+    "subject": "English",
+    "tags": ["have interviewed", "interviewed", "be interviewed", "be interviewing"],
+    "choices": ["have interviewed", "interviewed", "be interviewed", "be interviewing"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 13
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I like reading Shakespeare's plays. This means I like reading plays ......",
+    "subject": "English",
+    "tags": [
+      "which written about Shakespeare",
+      "are written by Shakespeare",
+      "which Shakespeare writes",
+      "written by Shakespeare"
+    ],
+    "choices": [
+      "which written about Shakespeare",
+      "are written by Shakespeare",
+      "which Shakespeare writes",
+      "written by Shakespeare"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 14
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The moral lesson of the story is that......",
+    "subject": "English",
+    "tags": [
+      "you can build bridges with people with your lies",
+      "people never believe a liar for a while but trust them for ever",
+      "you may deceive all people all the time",
+      "people never trust liars even if they're telling the truth"
+    ],
+    "choices": [
+      "you can build bridges with people with your lies",
+      "people never believe a liar for a while but trust them for ever",
+      "you may deceive all people all the time",
+      "people never trust liars even if they're telling the truth"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 15,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Eventually, the lies of the boy led to ......",
+    "subject": "English",
+    "tags": [
+      "watching the sheep over the hill",
+      "keeping the sheep away from the wolf",
+      "breaking trust with the villagers",
+      "being amused and entertained"
+    ],
+    "choices": [
+      "watching the sheep over the hill",
+      "keeping the sheep away from the wolf",
+      "breaking trust with the villagers",
+      "being amused and entertained"
+    ],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 16,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The villagers might have saved the sheep if ......",
+    "subject": "English",
+    "tags": [
+      "the boy had been truthful",
+      "the boy had been a liar",
+      "they had remembered the boy's lies",
+      "they had neglected the boy's cries"
+    ],
+    "choices": [
+      "the boy had been truthful",
+      "the boy had been a liar",
+      "they had remembered the boy's lies",
+      "they had neglected the boy's cries"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 17,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "According to the incidents of the story, the boy was......",
+    "subject": "English",
+    "tags": [
+      "a stranger from another village",
+      "a member of the same village",
+      "a foolish boy wanting to hunt wolves",
+      "an ordinary boy hiking in the hills"
+    ],
+    "choices": [
+      "a stranger from another village",
+      "a member of the same village",
+      "a foolish boy wanting to hunt wolves",
+      "an ordinary boy hiking in the hills"
+    ],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 18,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The boy was in a critical situation when ......",
+    "subject": "English",
+    "tags": [
+      "the villagers believed the boy time after time",
+      "he called for help for the first time",
+      "the villagers rushed to help but found no wolf",
+      "he couldn't protect the sheep from the wolf"
+    ],
+    "choices": [
+      "the villagers believed the boy time after time",
+      "he called for help for the first time",
+      "the villagers rushed to help but found no wolf",
+      "he couldn't protect the sheep from the wolf"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 19,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The sentence that can summarize the story is \"......\"",
+    "subject": "English",
+    "tags": [
+      "The little boy lost his sheep due to his lies",
+      "The villagers used to believe the liar",
+      "The sheep were eaten by a fake wolf",
+      "The liar was teaching the villagers a lesson"
+    ],
+    "choices": [
+      "The little boy lost his sheep due to his lies",
+      "The villagers used to believe the liar",
+      "The sheep were eaten by a fake wolf",
+      "The liar was teaching the villagers a lesson"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 20,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The boy was really a little......",
+    "subject": "English",
+    "tags": ["chaser", "shepherd", "killer", "hunter"],
+    "choices": ["chaser", "shepherd", "killer", "hunter"],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 21,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The suitable title of the story is \"......\"",
+    "subject": "English",
+    "tags": [
+      "The boy who chased the sheep",
+      "The villagers who killed a wolf",
+      "The boy who cried wolf!",
+      "The wiseman and the wolf"
+    ],
+    "choices": [
+      "The boy who chased the sheep",
+      "The villagers who killed a wolf",
+      "The boy who cried wolf!",
+      "The wiseman and the wolf"
+    ],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 22,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Once upon a time, there was a boy who became bored when he watched over his village sheep grazing on the hillside. To entertain himself, he shouted, 'Wolf! Wolf! The wolf is chasing the sheep!' When the villagers heard the cry, they came running up the hill to drive the wolf away. But, when they arrived, they saw no wolf. The boy was amused when he saw their angry faces. 'Don't scream wolf, boy,' warned the villagers, 'when there is no wolf!' They angrily went back down the hill. Later, the little sheep herder cried out once again, 'Wolf! Wolf! The wolf is chasing the sheep!' To his amusement, he looked on as the villagers came running up the hill to scare the wolf away. As they saw there was no wolf, they said strictly, 'Save your frightened cry for when there is a real wolf! Don't cry 'wolf' when there is no wolf!' But the boy grinned at their words while they walked grumbling down the hill once more. After a while, the boy saw a real wolf sneaking around his flock. Alarmed, he jumped on his feet and cried out as loud as he could, 'Wolf! Wolf!' But the villagers thought he was fooling them again, and so they didn't come to help. At sunset, the villagers went looking for the boy who hadn't returned with their sheep. When they went up the hill, they found him weeping. 'There really was a wolf here! The flock is gone! I cried out, 'Wolf!' but you didn't come,' he wailed."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "According to the passage, asthma is a/an ...... disease.",
+    "subject": "English",
+    "tags": ["blood", "chronic", "accidental", "heart"],
+    "choices": ["blood", "chronic", "accidental", "heart"],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 23,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Which of the following sentences can summarize the first paragraph?",
+    "subject": "English",
+    "tags": [
+      "Asthma is a deadly disease that can't be treated",
+      "Asthma has a long history in the Middle East",
+      "Over its long history, asthma has had different treatments",
+      "There are many causes of being infected with asthma"
+    ],
+    "choices": [
+      "Asthma is a deadly disease that can't be treated",
+      "Asthma has a long history in the Middle East",
+      "Over its long history, asthma has had different treatments",
+      "There are many causes of being infected with asthma"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 24,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "According to the passage, all of the following can be causes asthma EXCEPT .......",
+    "subject": "English",
+    "tags": ["herbs", "dusty weather", "air pollution", "smoking"],
+    "choices": ["herbs", "dusty weather", "air pollution", "smoking"],
+    "difficulty": "hard",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 25,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The main idea of the passage is \"......\"",
+    "subject": "English",
+    "tags": [
+      "New medicines to treat asthma have been discovered recently",
+      "Asthma is an old disease with different symptoms and causes",
+      "Asthma is a mild disease that can be treated totally",
+      "Asthma attacks are very dangerous to children at night"
+    ],
+    "choices": [
+      "New medicines to treat asthma have been discovered recently",
+      "Asthma is an old disease with different symptoms and causes",
+      "Asthma is a mild disease that can be treated totally",
+      "Asthma attacks are very dangerous to children at night"
+    ],
+    "difficulty": "medium",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 26,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Asthma as a disease can be controlled as long as people keep away from its .......",
+    "subject": "English",
+    "tags": ["symptoms", "treatments", "triggers", "airways"],
+    "choices": ["symptoms", "treatments", "triggers", "airways"],
+    "difficulty": "easy",
+    "grade": 1,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 27,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "...... is not considered one of asthma symptoms.",
+    "subject": "English",
+    "tags": ["Fever", "Fatigue", "Wheezing", "Coughing"],
+    "choices": ["Fever", "Fatigue", "Wheezing", "Coughing"],
+    "difficulty": "medium",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 28,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "People who suffer from asthma can be more relieved from its symptoms .......",
+    "subject": "English",
+    "tags": ["at dawn", "in the early morning", "at midnight", "at the midday"],
+    "choices": ["at dawn", "in the early morning", "at midnight", "at the midday"],
+    "difficulty": "hard",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 29,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "A person with asthma in a contaminated environment ...... to avoid its symptoms.",
+    "subject": "English",
+    "tags": [
+      "mustn't do mental jobs",
+      "mustn't do violent exercise",
+      "must keep pets at home",
+      "must wear a face mask"
+    ],
+    "choices": [
+      "mustn't do mental jobs",
+      "mustn't do violent exercise",
+      "must keep pets at home",
+      "must wear a face mask"
+    ],
+    "difficulty": "medium",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 30,
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Asthma has a long history of evolution before it was categorically defined. The earliest mention of respiratory distress and wheezing was found in 2600 BC in China. It was treated by herbs till the 1950s when some tablets and adrenaline injections were invented. Asthma is an inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction with normal temperatures. It is one of the most common diseases of children, but adults can have asthma, too. Asthma causes wheezing, breathlessness, chest tightness and coughing at night or early in the morning. Genetic, environmental and occupational factors are main causes for asthma. If you have asthma, you will suffer from it all the time. You will have asthma attacks only when something bothers your lungs. The attack happens in your body's airways, which are the paths that carry air to your lungs. As the air moves through your lungs, the airways become smaller. During an asthma attack, less air gets in and out of your lungs. People can control asthma by avoiding some things that may lead to it or what we can call 'asthma triggers'. They are different from someone to another, but there are some common ones as tobacco smoke, dust mites, outdoor air pollution, pets, mold, smoke from burning wood or grass, and infections like flu. Asthma can be treated by breathing some medicines or taking some pills according to the doctor's advice. The effect of these two ways of medication can be either to have a quick-relief control to ease the symptoms of an asthma attack or to have a long control to have fewer and milder attacks."
+    }
+  },
+  {
+    "title": "Translation",
+    "content": "Choose the correct translation: For millions of years, extinction among animals was a natural it was part of the process of evolution, but now it occurs process due to human activities.",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "لإلنين السنين حمايت الغريرة بين الحيوانات عملية طبيعية وحمايت جزءاً من عملية البقاء، لكنها الآن تحدث بسبب الأنشطة البشرية",
+      "لإلنين السنين حمايت النقراطي بين الحيوانات عملية غير طبيعية وحمايت جزءاً من عملية البقاء، لكنه الآن يحدث بسبب الأنشطة الإنسانية",
+      "لإلنين السنين حمايت النتائج بين الحيوانات عملية غير طبيعية وحمايت جزءاً من عملية التطور، لكنه الآن يحدث بسبب الأبحاث الإنسانية",
+      "لإلنين السنين حمايت النقراطي بين الحيوانات عملية طبيعية وحمايت جزءاً من عملية التطور، لكنه الآن يحدث بسبب الأنشطة العامة البشرية"
+    ],
+    "difficulty": "hard",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 31
+  },
+  {
+    "title": "Translation",
+    "content": "Choose the correct translation: Human beings should be satisfied with what they have in their lives as the value of many things they have, is only known when they are lost.",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "يجب على الناس أن يكونوا راضين بما لديهم في حياتهم، لأن قيمة الحكثر من الأشياء التي يستحوذها تعرف فقط بعد شياعها",
+      "يجب على الناس أن يكونوا قانون بما لديهم في حياتهم، لأن قيمة الحكثر من الأشياء التي قد يستحوذها تعرف فقط بعد شياعها",
+      "ينبغي على الناس أن يكونوا قانون بما يس لديهم في حياتهم، لأن قيمة الحكثر من الأشياء التي يستحوذها تسدى فقط بعد فقدانها",
+      "ينبغي على الناس أن يكونوا راضين بما يس لديهم في حياتهم، لأن قيمة الحكثر من الأشياء التي يستحوذها تعرف فقط بعد شياعها"
+    ],
+    "difficulty": "hard",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 32
+  },
+  {
+    "title": "Translation",
+    "content": "Choose the correct English translation: لقد نعبت وسائل التواصل الاجتماعي دورًا سلبياً في إبعاد الكثير من الناس عن بعض أقاربهم؛ لذلك تعتبر المناسبات الاجتماعية فرصة جيدة للتجع الأقلاب سوبا",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "Social media had played negative role on keeping a lot of people away from their relatives. So, social occasions are considered good opportunity to bring them again",
+      "Social media has played negative role of keeping a lot of people away from his relatives. So, social occasions are considered good opportunity to gather them together",
+      "Social media have played a negative role in keeping a lot of people away from their relatives. So, social occasions are considered a good opportunity to bring them together",
+      "Social media was played a negative role at keeping a lot of people away from his relatives. So, social occasions are considered a good opportunity to gather them together"
+    ],
+    "difficulty": "hard",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 33
+  },
+  {
+    "title": "Translation",
+    "content": "Choose the correct English translation: من ترس من الشباب على اللخائق الحميدة من الصعب أن يتأثر بها يسعى أو يراه من سلوكيات سيلة مدة اسمه المؤثرات",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "Its difficult for youths who are raised at good morals to be effected by the bad behaviours they hear or see, however the nature of these influences are",
+      "It's difficult for youths who were brought up on good morals to be effected by the bad behaviours they hear or see, whatever the nature of these effects are",
+      "It's difficult for youths who have brought up on good morals to be effected by the bad behaviours they hear or see, whenever the nature of these effects are",
+      "Its difficult for youths who has raised in good morals to be effected by the bad behaviours they hear or see, whatever the nature of these influences are"
+    ],
+    "difficulty": "hard",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 34
+  },
+  {
+    "title": "Literature",
+    "content": "Some incidents can be a turning point in people's lives. In light of this sentence, illustrate giving two examples about Pip.",
+    "subject": "English",
+    "tags": ["Great Expectations", "Charles Dickens", "literature"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 35
+  },
+  {
+    "title": "Literature",
+    "content": "\"But I didn't want to look after you! It's bad enough being a blacksmith's wife\". How did these words reflect Mrs Joe feelings towards her family? Mention two points?",
+    "subject": "English",
+    "tags": ["Great Expectations", "Charles Dickens", "literature"],
+    "choices": [],
+    "difficulty": "medium",
+    "grade": 2,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 36
+  },
+  {
+    "title": "Writing",
+    "content": "Write SIX (6) lines on the following topic: How can you develop yourself to meet the challenges of the future.",
+    "subject": "English",
+    "tags": ["essay", "future challenges", "self-development"],
+    "choices": [],
+    "difficulty": "medium",
+    "grade": 5,
+    "exam_paper_id": "6ac6e5f9-6f6b-447b-8a50-4bca505c0cb8",
+    "question_number": 37
+  }
+]
+}
