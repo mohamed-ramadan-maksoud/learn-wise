@@ -1,0 +1,767 @@
+{
+  "questions": [
+    {
+      "title": "Grammar/Vocabulary",
+      "content": "With the expansion of the internet, ...... has grown more widespread.",
+      "subject": "English",
+      "tags": ["privacy", "papyrus", "piracy", "population"],
+      "choices": ["privacy", "papyrus", "piracy", "population"],
+      "difficulty": "easy",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 1
+    },
+    {
+      "title": "Grammar/Vocabulary",
+      "content": "Boys, behave ...... or I’ll complain to the teacher.",
+      "subject": "English",
+      "tags": ["themselves", "yourself", "oneself", "yourselves"],
+      "choices": ["themselves", "yourself", "oneself", "yourselves"],
+      "difficulty": "easy",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 2
+    },
+    {
+      "title": "Synonym Identification",
+      "content": "The synonym of the underlined word 'current' is .......",
+      "subject": "English",
+      "tags": ["latest", "first", "past", "earliest"],
+      "choices": ["latest", "first", "past", "earliest"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 3
+    },
+    {
+      "title": "Grammar/Vocabulary",
+      "content": "I’m sorry, I can’t hang out with you; I have a lot of work .......",
+      "subject": "English",
+      "tags": ["do", "to do", "doing", "done"],
+      "choices": ["do", "to do", "doing", "done"],
+      "difficulty": "easy",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 4
+    },
+    {
+      "title": "Grammar/Vocabulary",
+      "content": "English is the most ...... language all over the world.",
+      "subject": "English",
+      "tags": ["widely-spoken", "speaking widely", "widely speaking", "wide speaking"],
+      "choices": ["widely-spoken", "speaking widely", "widely speaking", "wide speaking"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 5
+    },
+    {
+      "title": "Grammar/Vocabulary",
+      "content": "I hope my work will ...... the company’s expectations.",
+      "subject": "English",
+      "tags": ["defy", "reduce", "meet", "violate"],
+      "choices": ["defy", "reduce", "meet", "violate"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 6
+    },
+    {
+      "title": "Idiom Selection",
+      "content": "After running for 10 minutes straight, I finally stopped to .......",
+      "subject": "English",
+      "tags": ["take my mind off", "have a broken heart", "pay with my life", "get my breath back"],
+      "choices": ["take my mind off", "have a broken heart", "pay with my life", "get my breath back"],
+      "difficulty": "hard",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 7
+    },
+    {
+      "title": "Vocabulary",
+      "content": "The article was rejected by the editor because the information included was .......",
+      "subject": "English",
+      "tags": ["indebted", "inaccurate", "precise", "effective"],
+        "choices": ["indebted", "inaccurate", "precise", "effective"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 8
+    },
+    {
+      "title": "Vocabulary",
+      "content": "All these procedures are a complete waste of time. It’s ...... to repeat them.",
+      "subject": "English",
+      "tags": ["pointing", "pointless", "worthy", "worthwhile"],
+      "choices": ["pointing", "pointless", "worthy", "worthwhile"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 9
+    },
+    {
+      "title": "Antonym Identification",
+      "content": "The antonym of the underlined word 'omission' is .......",
+      "subject": "English",
+      "tags": ["elimination", "deletion", "addition", "desertification"],
+      "choices": ["elimination", "deletion", "addition", "desertification"],
+      "difficulty": "hard",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 10
+    },
+    {
+      "title": "Grammar/Vocabulary",
+      "content": "The food was freshly cooked and served .......",
+      "subject": "English",
+      "tags": ["attractive", "attractively", "attraction", "attracted"],
+      "choices": ["attractive", "attractively", "attraction", "attracted"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 11
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "Unlike Mrs. Leila's philosophy, Zaki's initial approach ......",
+      "subject": "English",
+      "tags": ["dislikes robotics", "values teamwork", "avoids challenges", "focuses on self-glory"],
+        "choices": ["dislikes robotics", "values teamwork", "avoids challenges", "focuses on self-glory"],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 12,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The sentence that summarizes the second paragraph is ......",
+      "subject": "English",
+      "tags": [
+        "Zaki was sure his robot would win the first prize at the competition",
+        "Zaki's classmates' selfishness discouraged him from collaboration",
+        "Zaki's teacher's criticism put him off from completing the competition",
+        "Zaki insisted on winning the competition depending on his solo efforts"
+      ],
+        "choices": [
+            "Zaki was sure his robot would win the first prize at the competition",
+            "Zaki's classmates' selfishness discouraged him from collaboration",
+            "Zaki's teacher's criticism put him off from completing the competition",
+            "Zaki insisted on winning the competition depending on his solo efforts"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 13,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The moral lesson of the passage is '......'",
+      "subject": "English",
+      "tags": [
+        "Talent alone guarantees victory",
+        "Competition deprives innovation and leads to failure",
+        "Modesty and collaboration lead to greater success",
+        "Solitude is key to creativity"
+      ],
+        "choices": [
+            "Talent alone guarantees victory",
+            "Competition deprives innovation and leads to failure",
+            "Modesty and collaboration lead to greater success",
+            "Solitude is key to creativity"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 14,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "Mrs. Leila's question to Zaki ......",
+      "subject": "English",
+      "tags": [
+        "annoyed him into quitting",
+        "made him doubt his abilities",
+        "changed his concept of competition",
+        "convinced him to cheat his classmates"
+      ],
+        "choices": [
+            "annoyed him into quitting",
+            "made him doubt his abilities",
+            "changed his concept of competition",
+            "convinced him to cheat his classmates"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 15,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "Zaki's robot first failed in the regional competition because ......",
+      "subject": "English",
+      "tags": [
+        "he collaborated with teammates",
+        "his code contained a hidden flaw",
+        "the competition was rigged",
+        "he used outdated materials"
+      ],
+        "choices": [
+            "he collaborated with teammates",
+            "his code contained a hidden flaw",
+            "the competition was rigged",
+            "he used outdated materials"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 16,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "When Zaki shared his code with teammates, they ......",
+      "subject": "English",
+      "tags": [
+        "ignored his contributions",
+        "identified and fixed a design error",
+        "disrupted his project",
+        "took credit for his work"
+      ],
+        "choices": [
+            "ignored his contributions",
+            "identified and fixed a design error",
+            "disrupted his project",
+            "took credit for his work"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 17,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "By the end of the story, Zaki's attitude changed as he ......",
+      "subject": "English",
+      "tags": [
+        "embraced teamwork and shared his work",
+        "became more arrogant",
+        "quit the robotics club",
+        "stopped coding altogether"
+      ],
+        "choices": [
+            "embraced teamwork and shared his work",
+            "became more arrogant",
+            "quit the robotics club",
+            "stopped coding altogether"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 18,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The suitable title of the passage is '......'",
+      "subject": "English",
+      "tags": [
+        "Arrogance and perfection",
+        "Modesty is inadequacy",
+        "Modesty versus arrogance",
+        "Arrogance is a way to success"
+      ],
+        "choices": [
+            "Arrogance and perfection",
+            "Modesty is inadequacy",
+            "Modesty versus arrogance",
+            "Arrogance is a way to success"
+        ],
+      "difficulty": "medium",
+      "grade": 1,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 19,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "Zaki was determined to prove himself when he joined the school’s robotics club. Gifted in engineering, he prided himself on his solitary work, dismissing teamwork as a distraction. His mentor, Mrs. Leila, a soft-spoken teacher with decades of experience, often urged him to collaborate. 'Modesty isn’t a weakness,' she said. 'It’s recognizing that growth happens when we share ideas.' Zaki rolled his eyes. To him, modesty was a sign of inadequacy. Their clash came to a head during the regional robotics competition. Zaki designed a ground-breaking prototype alone, refusing to let teammates review his code. 'This is my project,' he insisted. Meanwhile, his classmates struggled with their flawed entries. On the event day, Zaki’s robot performed flawlessly until the final challenge. A sudden power surge caused it to malfunction, and he watched in horror as it crashed. His teammates consoled one another. The next day, he surprised everyone by distributing copies of his code. 'Let's fix this together,' he said. Over hours of collaborative troubleshooting, they identified a design fault Zaki had overlooked. At the state competition, their unified entry - now a collective effort - won first place. Zaki's robot, stronger and more adaptable, dazzled judges. But the real victory was his realization: Modesty wasn't about shrinking his talents, but expanding his vision by embracing others' strengths."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The paintings in the Valley of the Nobles' tombs are significant as they ......",
+      "subject": "English",
+      "tags": [
+        "reveal details about nobles' daily lives and societal roles",
+        "were created using advanced technology",
+        "depict futuristic predictions of Egypt",
+        "were repainted in the modern era"
+      ],
+        "choices": [
+            "reveal details about nobles' daily lives and societal roles",
+            "were created using advanced technology",
+            "depict futuristic predictions of Egypt",
+            "were repainted in the modern era"
+        ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 20,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "Concerning the relationship between rulers and nobles, the passage implies that ......",
+      "subject": "English",
+      "tags": [
+        "nobles always excluded rulers from court life",
+        "nobles often defeated rulers in their conflict",
+        "both collaborated to strengthen Egypt's legacy",
+        "both collaborated to erase pharaohs' contributions"
+      ],
+        "choices": [
+            "nobles always excluded rulers from court life",
+            "nobles often defeated rulers in their conflict",
+            "both collaborated to strengthen Egypt's legacy",
+            "both collaborated to erase pharaohs' contributions"
+        ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 21,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "According to the passage, the Valley of the Nobles' ......",
+      "subject": "English",
+      "tags": [
+        "historical value will grow as time passes",
+        "historical value will shrink as time passes",
+        "location will become a modern city",
+        "carvings will fade completely"
+      ],
+        "choices": [
+                "historical value will grow as time passes",
+                "historical value will shrink as time passes",
+                "location will become a modern city",
+                "carvings will fade completely"
+            ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 22,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The Valley of the Nobles differs from the Valley of the Kings as ......",
+      "subject": "English",
+      "tags": [
+        "it was built during the Old Kingdom",
+        "it focuses on royal burials",
+        "its tombs have simple decorations",
+        "its paintings and carvings match up"
+      ],
+        "choices": [
+                "it was built during the Old Kingdom",
+                "it focuses on royal burials",
+                "its tombs have simple decorations",
+                "its paintings and carvings match up"
+            ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 23,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The sentence that summarizes the third paragraph is ......",
+      "subject": "English",
+      "tags": [
+        "the Valley of the Nobles was primarily a military stronghold during the New Kingdom",
+        "the site's significance lies in its proximity to Hatshepsut's Temple and royal burial grounds",
+        "the Valley of the Nobles' carvings represented our recent life",
+        "its tombs' feature is simple and highlights both workforce and court officials"
+      ],
+        "choices": [
+                "the Valley of the Nobles was primarily a military stronghold during the New Kingdom",
+                "the site's significance lies in its proximity to Hatshepsut's Temple and royal burial grounds",
+                "the Valley of the Nobles' carvings represented our recent life",
+                "its tombs' feature is simple and highlights both workforce and court officials"
+            ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 24,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The Valley of the Nobles' tombs were constructed between ......",
+      "subject": "English",
+      "tags": [
+        "332 AD-30 AD",
+        "2055 BC-1650 BC",
+        "1550 AD-1069 AD",
+        "1550 BC-1069 BC"
+      ],
+        "choices": [
+            "332 AD-30 AD",
+            "2055 BC-1650 BC",
+            "1550 AD-1069 AD",
+            "1550 BC-1069 BC"
+        ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 25,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The discovery of the Valley of the Nobles ...... in the ancient Egyptian civilization.",
+      "subject": "English",
+      "tags": [
+        "documented the lives of kings and queens",
+        "reflected that all ancient Egyptian classes were represented",
+        "enhanced the agricultural and social systems",
+        "uncovered that the kings were responsible for architecture"
+      ],
+        "choices": [
+        "documented the lives of kings and queens",
+        "reflected that all ancient Egyptian classes were represented",
+        "enhanced the agricultural and social systems",
+        "uncovered that the kings were responsible for architecture"
+      ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 26,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Reading Comprehension",
+      "content": "The main idea of the passage is the ......",
+      "subject": "English",
+      "tags": [
+        "architectural techniques of ancient Egyptian pyramids",
+        "lives and contributions of nobles in ancient Egypt",
+        "military strategies of New Kingdom pharaohs",
+        "religious practices of Luxor's temple priests"
+      ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 27,
+      "meta_data": {
+        "type": "english_paragraph",
+        "data": "The Valley of the Nobles is a testament to Egypt's rich history and cultural heritage. It is a unique and timeless architectural marvel, featuring simple, cemetery like designs and high-stability walls. These cemeteries tell stories of workers, artists, craftsmen, and architects' daily lives, as well as scenes from ancient court life. The themes of elements and decorations in these tombs are different from those which are in the Valley of the Kings. They are simpler and more humane. Ancient Egypt's pharaohs and officials built temples and tombs to preserve their memory and their contributions to the foreverness of the valley. A visit to the Valley of the Nobles offers a chance to tour among the bodies that contributed to Egypt's legacy. The Valley of the Nobles is a hidden gem in Luxor, Egypt. It shows the lives of influential figures who created history through artistic design and daily life drawings. Despite centuries, the site remains a testament to Egypt's rich history, offering insights into the factors that led to the rise of royals and nobles. The Valley of the Nobles houses about 500 tombs from the New Kingdom (1550 BC-1069 BC), containing simple decorations and valuable information about their lives. These tombs feature paintings describe their lives in a majestic manner, with their value increasing over time to leave exclusive gestures for travelers. The Valley of the Nobles is a reserve containing hundreds of rock-cut tombs of ancient Egyptian nobles. These tombs, discovered near Hatshepsut's Temple, are filled with vivid supreme carvings and hold a significant place in the country's history. The reserve shows the journeys of officials and leaders in polishing the royals' eras and the bonds created between rulers and their nations."
+      }
+    },
+    {
+      "title": "Grammar",
+      "content": "Maha's mother is angry with her, she...... come late last night.",
+      "subject": "English",
+      "tags": ["shouldn't have", "mustn't", "can't have", "may not"],
+      "choices": [
+          "shouldn't have",
+          "mustn't",
+          "can't have",
+          "may not"
+      ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 28
+    },
+    {
+      "title": "Grammar",
+      "content": "He didn't understand what...... explained.",
+      "subject": "English",
+      "tags": ["his teacher had", "his teacher has", "had his teacher", "was his teacher"],
+      "choices": [
+          "his teacher had explained",
+          "his teacher has explained",
+          "had his teacher explained",
+          "was his teacher explained"
+      ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 29
+    },
+    {
+      "title": "Grammar",
+      "content": "Did you like the report? - Yes, but I'd rather you ...... the conclusion.",
+      "subject": "English",
+      "tags": ["will change", "change", "had changed", "changing"],
+      "choices": [
+          "will change",
+          "change",
+          "had changed",
+          "changing"
+      ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 30
+    },
+    {
+      "title": "Grammar",
+      "content": "Anyone ...... in joining the club, should contact us at the address below.",
+      "subject": "English",
+      "tags": ["interested", "is interested", "who interested", "interesting"],
+        "choices": [
+            "interested",
+            "is interested",
+            "who interested",
+            "interesting"
+        ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 31
+    },
+    {
+      "title": "Grammar",
+      "content": "Which of the following sentences is structurally correct?",
+      "subject": "English",
+      "tags": [
+        "Rami ran in twenty kilometre's race.",
+        "Rami ran in a twenty kilometre's race.",
+        "Rami ran in a twenty kilometres race.",
+        "Rami ran in a twenty-kilometre race."
+      ],
+      "choices": [
+          "Rami ran in twenty kilometre's race.",
+          "Rami ran in a twenty kilometre's race.",
+          "Rami ran in a twenty kilometres race.",
+          "Rami ran in a twenty-kilometre race."
+      ],
+      "difficulty": "medium",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 32
+    },
+    {
+      "title": "Writing Skills",
+      "content": "The role of the body paragraph in an essay is to ......",
+      "subject": "English",
+      "tags": [
+        "introduce the main idea",
+        "provide detailed support for the thesis",
+        "restore the thesis statement",
+        "present the conclusion"
+      ],
+      "choices": [
+          "introduce the main idea",
+          "provide detailed support for the thesis",
+          "restore the thesis statement",
+          "present the conclusion"
+      ],
+      "difficulty": "easy",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 33
+    },
+    {
+      "title": "Punctuation",
+      "content": "Which of the following sentences is correctly punctuated?",
+      "subject": "English",
+      "tags": [
+        "I bought apples oranges bananas, and grapes.",
+        "I bought, apples, oranges, bananas and grapes.",
+        "I bought apples, oranges, bananas and grapes.",
+        "I bought apples, oranges bananas and, grapes."
+      ],
+      "choices": [
+          "I bought apples oranges bananas, and grapes.",
+          "I bought, apples, oranges, bananas and grapes.",
+          "I bought apples, oranges, bananas and grapes.",
+          "I bought apples, oranges bananas and, grapes."
+      ],
+      "difficulty": "easy",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 34
+    },
+    {
+      "title": "Grammar",
+      "content": "Ibrahim promised that he ...... us as soon as the plane arrives.",
+      "subject": "English",
+      "tags": ["will phone", "would phone", "phoned", "phone"],
+      "choices": [
+          "will phone",
+          "would phone",
+          "phoned",
+          "phone"
+      ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 35
+    },
+    {
+      "title": "Translation",
+      "content": "Choose the correct Arabic translation for: 'A cultured person is someone who is well-educated, knowledgeable, and refined in various aspects of life, including literature, art, music, and social etiquette. They are open-minded and appreciate different cultures.'",
+      "subject": "English",
+      "tags": [
+        "الشخص المفتح هو من لا يبكون متعلما جيداً أو وسع المعرفة، وستمعما بالذات الرغبة في مختلف جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة",
+        "الشخص المفتح هو من لا يبكون متعلما جيداً، وسع المعرفة، وستمعما بالذات الرغبة في العديد من جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة",
+        "الشخص المفتح هو من يبكون متعلما جيداً، وسع المعرفة، وستمعما بالذات الرغبة في مختلف جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة",
+        "الشخص المفتح هو من يبكون متعلما جيداً، وسع المعرفة، وستمعما بالذات الرغبة في العديد من جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة"
+      ],
+      "choices": [
+        "الشخص المفتح هو من لا يبكون متعلما جيداً أو وسع المعرفة، وستمعما بالذات الرغبة في مختلف جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة",
+        "الشخص المفتح هو من لا يبكون متعلما جيداً، وسع المعرفة، وستمعما بالذات الرغبة في العديد من جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة",
+        "الشخص المفتح هو من يبكون متعلما جيداً، وسع المعرفة، وستمعما بالذات الرغبة في مختلف جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة",
+        "الشخص المفتح هو من يبكون متعلما جيداً، وسع المعرفة، وستمعما بالذات الرغبة في العديد من جوانب الحياة، بما في ذلك الأدب، والمن، والتاريخ، وأوسيقى، وأداب السلوك الاجتماعي، إنه شخص متفتح اللغة و يقدر الثقافة الختلفة"
+      ],
+
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "123",
+      "question_number": 36
+    },
+    {
+      "title": "Translation",
+      "content": "Choose the correct Arabic translation for: 'There are many initiatives that discuss the necessity of combating rumors, preserving family cohesion, upholding the values of patience and tolerance, and fostering a sense of belonging.'",
+      "subject": "English",
+      "tags": [
+        "هناك العديد من المبادرات التي تناقش ضرورة معارية الشائعات والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء",
+        "هناك العديد من المبادرات التي تناقش ضرورة تشترك للإحداث والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء",
+        "هناك العديد من المبادرات التي تناقش ضرورة معارية الشائعات والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء",
+        "هناك العديد من المبادرات التي تناقش ضرورة معارية الشائعات والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء"
+      ],
+      "choices": [
+        "هناك العديد من المبادرات التي تناقش ضرورة معارية الشائعات والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء",
+        "هناك العديد من المبادرات التي تناقش ضرورة تشترك للإحداث والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء",
+        "هناك العديد من المبادرات التي تناقش ضرورة معارية الشائعات والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء",
+        "هناك العديد من المبادرات التي تناقش ضرورة معارية الشائعات والجماعات على التربط الأسري وتبع الصبر وتسامح ونعم الانتماء"
+      ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "123",
+      "question_number": 37
+    },
+    {
+      "title": "Translation",
+      "content": "Choose the correct English translation for: 'أحياناً لا تجربنا تحريات الأدنين في بعض المواقط، وهذا لا يعني أنهم على خطأ لذا يجب أن نلقى اللوم عليهم قبل الاستماع ليسرتاحهم جيداً'",
+      "subject": "English",
+      "tags": [
+        "Sometimes, we don't understand other people's behaviors in some situations, who doesn't mean that they were wrong. So, we shouldn't blame them before listening to their reasons carefully",
+        "Sometimes, we don't like other people's behaviors in any situations, which doesn't mean that they are wrong. So, we shouldn't blame others before listening to their results carefully",
+        "Sometimes, we don't like other people's behaviors in some situations, which doesn't mean that they are wrong. So, we shouldn't blame them before listening to their justification carefully",
+        "Sometimes, we don't understand others people's behaviors in some situations, which doesn't mean that they are wrong. So, we shouldn't blame others before listening to his Justifications carefully"
+      ],
+       "choices": [
+        "Sometimes, we don't understand other people's behaviors in some situations, who doesn't mean that they were wrong. So, we shouldn't blame them before listening to their reasons carefully",
+        "Sometimes, we don't like other people's behaviors in any situations, which doesn't mean that they are wrong. So, we shouldn't blame others before listening to their results carefully",
+        "Sometimes, we don't like other people's behaviors in some situations, which doesn't mean that they are wrong. So, we shouldn't blame them before listening to their justification carefully",
+        "Sometimes, we don't understand others people's behaviors in some situations, which doesn't mean that they are wrong. So, we shouldn't blame others before listening to his Justifications carefully"
+      ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "123",
+      "question_number": 38
+    },
+    {
+      "title": "Translation",
+      "content": "Choose the correct English translation for: 'النسبة بالأمر هو ما يهدفنا القدرة على السيتمرار في الحياة فالليسان المتقالل يعليه لديه القدرة على تددى كل المعابر التي تواجهها. لذلك، لا يجب أبداً أن نستثمار البشر، لأنه قد يدور حياتنا'",
+      "subject": "English",
+      "tags": [
+        "Holding on to hope is what gives us the ability to keep going in life. A nature pessimistic person has the ability to overcome all the challenges they face. Therefore, we should never surrender to disappear, as it can destroy our lives",
+        "Holding on to hope is what gives us the ability to keep going in life. A naturally optimistic person has the ability to overcome all the challenges they face. Therefore, we should never surrender to despair, as it can destroy our lives",
+        "Holding on to hobby is what gives us the ability to keep go in life. A nature pessimistic person has the ability to overcome all the challenges they face. Therefore, we should never surround to disappear, as it can destroy our lives",
+        "Holding on to hobby is what gives us the ability to keep go in life. A naturally optimistic person has the ability to overcome all the challenges they face. Therefore, we should never surround to despair, as it can destroy our lives"
+      ],
+       "choices": [
+        "Holding on to hope is what gives us the ability to keep going in life. A nature pessimistic person has the ability to overcome all the challenges they face. Therefore, we should never surrender to disappear, as it can destroy our lives",
+        "Holding on to hope is what gives us the ability to keep going in life. A naturally optimistic person has the ability to overcome all the challenges they face. Therefore, we should never surrender to despair, as it can destroy our lives",
+        "Holding on to hobby is what gives us the ability to keep go in life. A nature pessimistic person has the ability to overcome all the challenges they face. Therefore, we should never surround to disappear, as it can destroy our lives",
+        "Holding on to hobby is what gives us the ability to keep go in life. A naturally optimistic person has the ability to overcome all the challenges they face. Therefore, we should never surround to despair, as it can destroy our lives"
+      ],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "123",
+      "question_number": 39
+    },
+    {
+      "title": "Literary Analysis",
+      "content": "Despite being sincere to Pip, Joe suffered from Pip's ingratitude. Explain giving TWO examples.",
+      "subject": "English",
+      "tags": ["Great Expectations", "Essay", "Open-ended"],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 40
+    },
+    {
+      "title": "Literary Analysis",
+      "content": "There were some hints in 'Great expectations' that indicated Miss Havisham was not Pip's real benefactor. Illustrate giving TWO reasons",
+      "subject": "English",
+      "tags": ["Great Expectations", "Essay", "Open-ended"],
+      "difficulty": "hard",
+      "grade": 2,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 41
+    },
+    {
+      "title": "Essay Writing",
+      "content": "Write a paragraph of SIX (6) lines on the following topic: 'If you were offered a free flight ticket for two weeks, which country would you choose to visit and what are three reasons for your choice?'",
+      "subject": "English",
+      "tags": ["Essay", "Open-ended"],
+      "difficulty": "medium",
+      "grade": 5,
+      "exam_paper_id": "662437fa-c970-4bb1-98e1-6b309cd3dc7c",
+      "question_number": 42
+    }
+  ]
+}
