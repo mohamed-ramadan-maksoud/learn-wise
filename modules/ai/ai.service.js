@@ -6,6 +6,7 @@
 const { generateEmbedding, generateRAGAnswer, generateStructuredRAGAnswer, vectorSearch } = require('../../utils/ai');
 const AIRepository = require('./ai.repository');
 const AIHelper = require('./ai.helper');
+const aiGenRepo = require('./ai-generated-questions.repository');
 
 class AIService {
   constructor(supabase) {
@@ -54,6 +55,29 @@ class AIService {
   }
 
   /**
+   * Enhanced: Generate RAG answer and save AI-generated questions
+   */
+  async generateRAGAnswerAndSave(query, searchTypes = ['questions', 'tutorials'], maxResults = 5, structured = false, subject = null) {
+    const ragResult = await this.generateRAGAnswer(query, searchTypes, maxResults, structured);
+    // Save generated questions if present
+    if (ragResult && ragResult.generated_similar_questions && Array.isArray(ragResult.generated_similar_questions)) {
+      for (const q of ragResult.generated_similar_questions) {
+        if (!q || typeof q !== 'object') continue; // Defensive: skip invalid
+        await aiGenRepo.saveAIGeneratedQuestion(this.repository.supabase, {
+          parent_exam_q_id: q.parent_exam_q_id || null,
+          subject: subject || q.subject || '',
+          content: q.content || '',
+          choices: q.choices || [],
+          answer: q.answer || '',
+          ai_search_type: 'rag',
+          metadata: q.metadata || null
+        });
+      }
+    }
+    return ragResult;
+  }
+
+  /**
    * Perform vector search across content types
    */
   async performVectorSearch(query, searchTypes = ['questions', 'tutorials'], maxResults = 5) {
@@ -76,6 +100,25 @@ class AIService {
     } catch (error) {
       throw new Error(`Failed to perform vector search: ${error.message}`);
     }
+  }
+
+  /**
+   * Fuzzy search: combine original and AI-generated questions by subject
+   */
+  async fuzzySearchQuestions(queryText, subject) {
+    // 1. Fuzzy search original questions
+    const origQuestions = await this.repository.supabase
+      .from('questions')
+      .select('*')
+      .ilike('subject', subject)
+      .or(`content.ilike.%${queryText}%,answer.ilike.%${queryText}%`);
+    // 2. Fuzzy search AI-generated questions
+    const aiQuestions = await aiGenRepo.fuzzySearchAIGeneratedQuestions(subject, queryText);
+    // 3. Combine and format
+    return [
+      ...(origQuestions.data || []),
+      ...aiQuestions
+    ];
   }
 
   /**
