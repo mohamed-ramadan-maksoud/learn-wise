@@ -131,7 +131,17 @@ class AIService {
       ...(answerRes.data || [])
     ].filter((v, i, a) => a.findIndex(t => t.id === v.id) === i); // dedupe by id
 
-    // 2. For each original question, fetch related AI-generated questions by parent_exam_q_id
+    // 2. Fetch exam metadata for original questions (like RAG flow)
+    let examMetaMap = {};
+    if (origQuestions.length > 0) {
+      const examPaperIds = AIHelper.extractExamPaperIds(origQuestions);
+      if (examPaperIds.length > 0) {
+        const examPapers = await this.repository.getExamPapersByIds(examPaperIds);
+        examMetaMap = AIHelper.createExamMetaMap(examPapers);
+      }
+    }
+
+    // 3. For each original question, fetch related AI-generated questions by parent_exam_q_id
     let relatedAIQuestions = [];
     if (origQuestions.length > 0) {
       const ids = origQuestions.map(q => q.id);
@@ -143,12 +153,15 @@ class AIService {
       relatedAIQuestions = aiRelated || [];
     }
 
-    // 3. Fuzzy search AI-generated questions (text match)
+    // 4. Fuzzy search AI-generated questions (text match)
     const aiQuestions = await aiGenRepo.fuzzySearchAIGeneratedQuestions(this.repository.supabase, subject, queryText);
 
-    // 4. Combine and dedupe all
+    // 5. Combine and dedupe all, with exam metadata for original questions
     const allQuestions = [
-      ...origQuestions,
+      ...origQuestions.map(q => ({
+        ...q,
+        examMeta: q.exam_paper_id ? examMetaMap[q.exam_paper_id] : undefined
+      })),
       ...aiQuestions,
       ...relatedAIQuestions
     ].filter((v, i, a) => a.findIndex(t => t.id === v.id) === i); // dedupe by id

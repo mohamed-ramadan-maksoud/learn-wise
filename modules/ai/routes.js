@@ -112,11 +112,16 @@ async function aiRoutes(fastify) {
           topic: q.topic || '',
           choices: q.choices || []
         }));
+        
+        // Limit to max 10 and randomize if more than 10
+        const limitedGenerated = formattedGenerated.length > 10 
+          ? formattedGenerated.sort(() => Math.random() - 0.5).slice(0, 10)
+          : formattedGenerated;
         reply.send({
           success: true,
           query_answer: '',
           question_exam_answer: '',
-          generated_similar_questions: formattedGenerated,
+          generated_similar_questions: limitedGenerated,
           answer: '',
           sources: formattedSources,
           query,
