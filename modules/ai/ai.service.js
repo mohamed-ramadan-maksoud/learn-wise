@@ -57,20 +57,35 @@ class AIService {
   /**
    * Enhanced: Generate RAG answer and save AI-generated questions
    */
-  async generateRAGAnswerAndSave(query, searchTypes = ['questions', 'tutorials'], maxResults = 5, structured = false, subject = null) {
+  async generateRAGAnswerAndSave(query, searchTypes = ['questions', 'tutorials'], maxResults = 5, structured = false, subject = null, parentQuestionId = null) {
     const ragResult = await this.generateRAGAnswer(query, searchTypes, maxResults, structured);
+    
+    // Find the most relevant original question from sources to use as parent
+    let relevantParentId = parentQuestionId;
+    if (!relevantParentId && ragResult.sources && Array.isArray(ragResult.sources)) {
+      const questionSource = ragResult.sources.find(source => source.type === 'question');
+      if (questionSource && questionSource.id) {
+        relevantParentId = questionSource.id;
+        console.log('[RAG] Linking AI questions to original question:', relevantParentId);
+      }
+    }
+    
     // Save generated questions if present
     if (ragResult && ragResult.generated_similar_questions && Array.isArray(ragResult.generated_similar_questions)) {
       for (const q of ragResult.generated_similar_questions) {
         if (!q || typeof q !== 'object') continue; // Defensive: skip invalid
         await aiGenRepo.saveAIGeneratedQuestion(this.repository.supabase, {
-          parent_exam_q_id: q.parent_exam_q_id || null,
+          parent_exam_q_id: relevantParentId || q.parent_exam_q_id || null, // Use found parent or provided
           subject: subject || q.subject || '',
-          content: q.content || '',
+          content: q.question || q.content || '', // AI uses 'question', fallback to 'content'
           choices: q.choices || [],
           answer: q.answer || '',
           ai_search_type: 'rag',
-          metadata: q.metadata || null
+          metadata: {
+            difficulty: q.difficulty || null,
+            topic: q.topic || null,
+            ...(q.metadata || {})
+          }
         });
       }
     }
@@ -106,19 +121,38 @@ class AIService {
    * Fuzzy search: combine original and AI-generated questions by subject
    */
   async fuzzySearchQuestions(queryText, subject) {
-    // 1. Fuzzy search original questions
-    const origQuestions = await this.repository.supabase
-      .from('questions')
-      .select('*')
-      .ilike('subject', subject)
-      .or(`content.ilike.%${queryText}%,answer.ilike.%${queryText}%`);
-    // 2. Fuzzy search AI-generated questions
-    const aiQuestions = await aiGenRepo.fuzzySearchAIGeneratedQuestions(subject, queryText);
-    // 3. Combine and format
-    return [
-      ...(origQuestions.data || []),
-      ...aiQuestions
-    ];
+    // 1. Fuzzy search original questions (two queries, merge, dedupe)
+    const [contentRes, answerRes] = await Promise.all([
+      this.repository.supabase.from('questions').select('*').ilike('subject', subject).ilike('content', `%${queryText}%`),
+      this.repository.supabase.from('questions').select('*').ilike('subject', subject).ilike('answer', `%${queryText}%`)
+    ]);
+    const origQuestions = [
+      ...(contentRes.data || []),
+      ...(answerRes.data || [])
+    ].filter((v, i, a) => a.findIndex(t => t.id === v.id) === i); // dedupe by id
+
+    // 2. For each original question, fetch related AI-generated questions by parent_exam_q_id
+    let relatedAIQuestions = [];
+    if (origQuestions.length > 0) {
+      const ids = origQuestions.map(q => q.id);
+      const { data: aiRelated, error } = await this.repository.supabase
+        .from('ai_generated_questions')
+        .select('*')
+        .in('parent_exam_q_id', ids);
+      if (error) throw new Error(error.message);
+      relatedAIQuestions = aiRelated || [];
+    }
+
+    // 3. Fuzzy search AI-generated questions (text match)
+    const aiQuestions = await aiGenRepo.fuzzySearchAIGeneratedQuestions(this.repository.supabase, subject, queryText);
+
+    // 4. Combine and dedupe all
+    const allQuestions = [
+      ...origQuestions,
+      ...aiQuestions,
+      ...relatedAIQuestions
+    ].filter((v, i, a) => a.findIndex(t => t.id === v.id) === i); // dedupe by id
+    return allQuestions;
   }
 
   /**

@@ -87,8 +87,11 @@ async function aiRoutes(fastify) {
         });
       } else if (searchType === 'fuzzy') {
         const results = await aiService.fuzzySearchQuestions(query, subject);
+        // Separate AI-generated questions (with parent_exam_q_id) from originals
+        const generated = (results || []).filter(q => q.parent_exam_q_id);
+        const originals = (results || []).filter(q => !q.parent_exam_q_id);
         // Format sources to match schema
-        const formattedSources = (results || []).map(q => ({
+        const formattedSources = (originals || []).map(q => ({
           id: q.id || '',
           type: 'question',
           title: q.title || '',
@@ -100,11 +103,20 @@ async function aiRoutes(fastify) {
           grade: q.grade || '',
           examMeta: q.examMeta || null
         }));
+        // Format generated_similar_questions
+        const formattedGenerated = (generated || []).map(q => ({
+          id: q.id || '',
+          question: q.content || '',
+          subject: q.subject || '',
+          difficulty: q.difficulty || '',
+          topic: q.topic || '',
+          choices: q.choices || []
+        }));
         reply.send({
           success: true,
           query_answer: '',
           question_exam_answer: '',
-          generated_similar_questions: [],
+          generated_similar_questions: formattedGenerated,
           answer: '',
           sources: formattedSources,
           query,

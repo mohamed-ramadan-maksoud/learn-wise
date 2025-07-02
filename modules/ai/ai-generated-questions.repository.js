@@ -37,14 +37,15 @@ async function saveAIGeneratedQuestion(supabase, questionData) {
  * @returns {Promise<Array>}
  */
 async function fuzzySearchAIGeneratedQuestions(supabase, subject, queryText) {
-  const { data, error } = await supabase
-    .from('ai_generated_questions')
-    .select('*')
-    .eq('subject', subject)
-    .or(`content.ilike.%${queryText}%,answer.ilike.%${queryText}%`)
-    .order('created_at', { ascending: false });
-  if (error) throw new Error(error.message);
-  return data || [];
+  const [contentRes, answerRes] = await Promise.all([
+    supabase.from('ai_generated_questions').select('*').eq('subject', subject).ilike('content', `%${queryText}%`),
+    supabase.from('ai_generated_questions').select('*').eq('subject', subject).ilike('answer', `%${queryText}%`)
+  ]);
+  const data = [
+    ...(contentRes.data || []),
+    ...(answerRes.data || [])
+  ].filter((v, i, a) => a.findIndex(t => t.id === v.id) === i); // dedupe by id
+  return data;
 }
 
 module.exports = {
