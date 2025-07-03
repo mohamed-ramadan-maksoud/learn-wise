@@ -57,6 +57,17 @@ const examSchemas = {
       answerKeyUrl: {
         type: 'string',
         description: 'URL to the answer key file (optional)'
+      },
+      exam_type: {
+        type: 'string',
+        pattern: '^(final|practice|mock|guide(_[a-zA-Z0-9]+)?)$',
+        default: 'final',
+        description: 'Type of exam (final, guide, guide_1, guide_2, practice, mock, etc)'
+      },
+      region: {
+        type: 'string',
+        default: 'egypt',
+        description: 'Region or country of the exam (default: egypt)'
       }
     }
   },
@@ -142,4 +153,4 @@ const examSchemas = {
   }
 };
 
-module.exports = examSchemas; 
+module.exports = examSchemas;

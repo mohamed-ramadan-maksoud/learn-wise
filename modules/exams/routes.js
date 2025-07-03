@@ -38,6 +38,10 @@ async function examRoutes(fastify, options) {
       const examData = request.body;
       const userId = request.user.id;
 
+      // Set defaults for exam_type and region if not provided
+      if (!examData.exam_type) examData.exam_type = 'final';
+      if (!examData.region) examData.region = 'egypt';
+
       // Generate embedding for the exam paper
       const examText = `${examData.title} ${examData.description || ''} ${examData.subject}`;
       const embedding = await generateEmbedding(examText);

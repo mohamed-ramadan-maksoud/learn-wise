@@ -1,0 +1,980 @@
+{
+  "questions":[
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "During the recession, James lost his job even though he was a/an ............ worker.",
+    "subject": "English",
+    "tags": [
+      "incooperative",
+      "impatient",
+      "defective",
+      "conscientious"
+    ],
+    "choices": [
+      "incooperative",
+      "impatient",
+      "defective",
+      "conscientious"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 1,
+    "question_answer": "conscientious",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Working till 10 p.m. wasn’t a problem. I ............ late. I did it in my last job, too.",
+    "subject": "English",
+    "tags": [
+      "am used to finishing",
+      "I used to finish",
+      "used to be finishing",
+      "have used to finish"
+    ],
+    "choices": [
+      "am used to finishing",
+      "I used to finish",
+      "used to be finishing",
+      "have used to finish"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 2,
+    "question_answer": "am used to finishing",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Before ............, glass bottles are thoroughly washed and the labels are removed.",
+    "subject": "English",
+    "tags": [
+      "recycling",
+      "it recycles",
+      "being recycled",
+      "recycled"
+    ],
+    "choices": [
+      "recycling",
+      "it recycles",
+      "being recycled",
+      "recycled"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 3,
+    "question_answer": "being recycled",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Which type of newspaper often features sensational headlines and dramatic stories?",
+    "subject": "English",
+    "tags": [
+      "Academic journal",
+      "Broadsheet",
+      "Tabloid",
+      "Magazine"
+    ],
+    "choices": [
+      "Academic journal",
+      "Broadsheet",
+      "Tabloid",
+      "Magazine"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 4,
+    "question_answer": "Tabloid",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "He was accused of the crime. Choose the synonym of the underlined word.",
+    "subject": "English",
+    "tags": [
+      "executed for",
+      "charged with",
+      "declared innocent of",
+      "blamed for"
+    ],
+    "choices": [
+      "executed for",
+      "charged with",
+      "declared innocent of",
+      "blamed for"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 5,
+    "question_answer": "charged with",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "What term describes a state of emotional, physical and mental exhaustion caused by prolonged stress?",
+    "subject": "English",
+    "tags": [
+      "Burnout",
+      "Depression",
+      "Fatigue",
+      "Anxiety"
+    ],
+    "choices": [
+      "Burnout",
+      "Depression",
+      "Fatigue",
+      "Anxiety"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 6,
+    "question_answer": "Burnout",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Does Jimmy take after his father? The word that has the same meaning as the underlined word is …….",
+    "subject": "English",
+    "tags": [
+      "walk behind",
+      "help",
+      "fight with",
+      "resemble"
+    ],
+    "choices": [
+      "walk behind",
+      "help",
+      "fight with",
+      "resemble"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 7,
+    "question_answer": "resemble",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "What is the primary purpose of the introduction in an essay?",
+    "subject": "English",
+    "tags": [
+      "To provide background information",
+      "To summarize the conclusion",
+      "To present the main argument",
+      "To include unrelated details"
+    ],
+    "choices": [
+      "To provide background information",
+      "To summarize the conclusion",
+      "To present the main argument",
+      "To include unrelated details"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 8,
+    "question_answer": "To provide background information",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The ............ is used to indicate the end of a declarative sentence.",
+    "subject": "English",
+    "tags": [
+      "Full stop",
+      "Comma",
+      "Question mark",
+      "Exclamation"
+    ],
+    "choices": [
+      "Full stop",
+      "Comma",
+      "Question mark",
+      "Exclamation"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 9,
+    "question_answer": "Full stop",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Many students gain practical experience and valuable skills through a / an ............ during their college years.",
+    "subject": "English",
+    "tags": [
+      "pandemic",
+      "internship",
+      "reinvent",
+      "life changing"
+    ],
+    "choices": [
+      "pandemic",
+      "internship",
+      "reinvent",
+      "life changing"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 10,
+    "question_answer": "internship",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The global ............ has dramatically altered the way we work, forcing companies to adapt to new technologies and remote environments.",
+    "subject": "English",
+    "tags": [
+      "internship",
+      "reinvent",
+      "pandemic",
+      "life changing"
+    ],
+    "choices": [
+      "internship",
+      "reinvent",
+      "pandemic",
+      "life changing"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 11,
+    "question_answer": "pandemic",
+    "meta_data": {}
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Which of the following is an example of how technology affects our daily life by allowing us to control devices remotely?",
+    "subject": "English",
+    "tags": [
+      "technology",
+      "remote control",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Traditional light switches",
+      "Remote control units",
+      "Manual washing machines",
+      "Landline telephones"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 12,
+    "question_answer": "Remote control units",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What household appliance is mentioned as being influenced by technology to improve convenience?",
+    "subject": "English",
+    "tags": [
+      "household appliance",
+      "technology",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Sewing machine",
+      "Dishwashing machine",
+      "Refrigerator",
+      "Toaster"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 13,
+    "question_answer": "Dishwashing machine",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Due to modern technology, the life style of millions of people has changed .....",
+    "subject": "English",
+    "tags": [
+      "technology impact",
+      "lifestyle change",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "20 years ago",
+      "within the last 20 years",
+      "before the last twenty years",
+      "in more than twenty years"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 14,
+    "question_answer": "within the last 20 years",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Leisure today is .......... ever before.",
+    "subject": "English",
+    "tags": [
+      "leisure industry",
+      "modern trends",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "more expensive than",
+      "less expensive than",
+      "as expensive as",
+      "much more varied in taste and cost"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 15,
+    "question_answer": "much more varied in taste and cost",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The underlined pronoun it in the second paragraph refers to .......... .",
+    "subject": "English",
+    "tags": [
+      "pronoun reference",
+      "text analysis",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "microwave oven",
+      "the use of computers in planes",
+      "your favourite food",
+      "the progress in the leisure industry"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 16,
+    "question_answer": "the progress in the leisure industry",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "The best title to this text is .......... .",
+    "subject": "English",
+    "tags": [
+      "main idea",
+      "title selection",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Industry and leisure",
+      "Leisure and life",
+      "Technology and leisure",
+      "Leisure and business"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 17,
+    "question_answer": "Technology and leisure",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What is a synonym for \"recreation\"?",
+    "subject": "English",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Work",
+      "Entertainment",
+      "Stress",
+      "Obligation"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 18,
+    "question_answer": "Entertainment",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Which word is a synonym for \"convincing\"?",
+    "subject": "English",
+    "tags": [
+      "vocabulary",
+      "synonyms",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Disagreeing",
+      "Persuading",
+      "Ignoring",
+      "Confusing"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 19,
+    "question_answer": "Persuading",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You do not need to look back twenty years to realize the tremendous developments in science and technology; and how these advances are changing the life style of millions of people all over the world. Although the television and video were there in those days, no one had heard then of those wonderful remote-control units that turn the equipment on and off helping us to choose our entertainment with the least physical effort.\n      There are many other effects of technology that made our life more comfortable. You no longer worry about washing the dishes; your dishwashing machine can take care of that. If you want a hot meal, you just pop your favourite food into the microwave oven and it is ready in minutes. If you want to send an urgent message, just write it down and send, it through your fax machine and it arrives on the other side of the world in seconds. Passenger planes fly non-stop to different parts of the world and their pilots can find time to relax as the computers do most of the hard work for them. This gives people more time to enjoy themselves and it explains the remarkable current progress in the leisure industry.\n        Leisure today is a big business. Just read the advertisement in the newspaper. You just will not believe the variety; you will find something to fit all incomes and tastes. As robots take over the work of people in industry, as communications across the world become faster, and while technology continues to create ways of persuading us to work less and enjoy ourselves more, so the leisure industry will play a far more important role in the lives of us all."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What was Dr. Aisha Abd El-Rahman's pen name?",
+    "subject": "English",
+    "tags": [
+      "Dr. Aisha",
+      "pen name",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Umm Kulthum",
+      "Bint Al-Shati",
+      "Zaynab Al-Ghazali",
+      "Fatima Al-Fihri"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 20,
+    "question_answer": "Bint Al-Shati",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Where was Dr. Aisha Abd El-Rahman born?",
+    "subject": "English",
+    "tags": [
+      "biography",
+      "birthplace",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Cairo",
+      "Alexandria",
+      "Damietta",
+      "Luxor"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 21,
+    "question_answer": "Damietta",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What was one of Dr. Aisha Abd El-Rahman's primary areas of focus in her work?",
+    "subject": "English",
+    "tags": [
+      "academic focus",
+      "Islamic studies",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Modern art",
+      "Mathematics",
+      "Islamic studies",
+      "Engineering"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 22,
+    "question_answer": "Islamic studies",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What barrier did Dr. Aisha face during her early education?",
+    "subject": "English",
+    "tags": [
+      "education challenges",
+      "gender barriers",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Lack of schools in her area",
+      "Financial difficulties",
+      "Restrictions on girls' education",
+      "Language barriers"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 23,
+    "question_answer": "Restrictions on girls' education",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Which of the following is a notable work by Dr. Aisha Abd El-Rahman?",
+    "subject": "English",
+    "tags": [
+      "notable work",
+      "literature",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Women in the Qur'an",
+      "The Interpretation of Dreams",
+      "The Arab Spring",
+      "The History of Egypt"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 24,
+    "question_answer": "Women in the Qur'an",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What role did Dr. Aisha Abd El-Rahman have at Cairo University?",
+    "subject": "English",
+    "tags": [
+      "Cairo University",
+      "academic role",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "Principal",
+      "Professor",
+      "Librarian",
+      "Student Counselor"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 25,
+    "question_answer": "Professor",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What was one of Dr. Aisha's goals as an advocate for women?",
+    "subject": "English",
+    "tags": [
+      "women's rights",
+      "advocacy",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "To promote traditional gender roles",
+      "To emphasize women's rights in an Islamic context",
+      "To ban women from higher education",
+      "To oppose social reform"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 26,
+    "question_answer": "To emphasize women's rights in an Islamic context",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "In which year did Dr. Aisha Abd El-Rahman pass away?",
+    "subject": "English",
+    "tags": [
+      "biography",
+      "death year",
+      "reading_comprehension"
+    ],
+    "choices": [
+      "1978",
+      "1988",
+      "1998",
+      "2008"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 27,
+    "question_answer": "1998",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Dr. Aisha Abd El-Rahman, also known by her pen name Bint Al-Shati, was a renowned Egyptian writer, scholar, and feminist born in 1913 in Damietta, Egypt. She made significant contributions to Arabic literature and Islamic studies, breaking societal barriers for women in academia. Despite facing restrictions on her education as a young girl, Aisha pursued her studies in secret. Later, she graduated from Cairo University, becoming one of the first women in Egypt to receive a higher education.\n    Dr. Aisha's work focused on the interpretation of the Qur'an and the role of women in Islamic history. She wrote extensively on women's rights within an Islamic framework and criticized the cultural practices that marginalized women. Her most famous works include “Women in the Qur'an” and “The Wives of the Prophet”, which highlight the lives of influential women in Islamic history.\n    In addition to her academic work, Dr. Aisha was a professor at Cairo University and an advocate for women's education. She received numerous awards for her contributions to literature and social reform before passing away in 1998. Today, Dr. Aisha Abd El-Rahman is celebrated as a trailblazer who paved the way for future generations of women in the Arab world."
+    }
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Hе ............ to the cinema, but he stayed at home to study his lessons.",
+    "subject": "English",
+    "tags": [
+      "could have gone",
+      "must have gone",
+      "should go",
+      "can go"
+    ],
+    "choices": [
+      "could have gone",
+      "must have gone",
+      "should go",
+      "can go"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 28,
+    "question_answer": "could have gone",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "One reason for dams ............ is to produce electricity.",
+    "subject": "English",
+    "tags": [
+      "are built",
+      "have built",
+      "being built",
+      "were built"
+    ],
+    "choices": [
+      "are built",
+      "have built",
+      "being built",
+      "were built"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 29,
+    "question_answer": "being built",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Sara made a suggestion ................ Nasr objected.",
+    "subject": "English",
+    "tags": [
+      "which",
+      "to which",
+      "that",
+      "on which"
+    ],
+    "choices": [
+      "which",
+      "to which",
+      "that",
+      "on which"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 30,
+    "question_answer": "to which",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "We know what ............... the river to get polluted.",
+    "subject": "English",
+    "tags": [
+      "wastes",
+      "makes",
+      "causes",
+      "puts in"
+    ],
+    "choices": [
+      "wastes",
+      "makes",
+      "causes",
+      "puts in"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 31,
+    "question_answer": "causes",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I suggest that he ......... to the nearest agency for that.",
+    "subject": "English",
+    "tags": [
+      "going",
+      "goes",
+      "go",
+      "went"
+    ],
+    "choices": [
+      "going",
+      "goes",
+      "go",
+      "went"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 32,
+    "question_answer": "go",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I don't like ................. what to do.",
+    "subject": "English",
+    "tags": [
+      "be told",
+      "be telling",
+      "being told",
+      "to be telling"
+    ],
+    "choices": [
+      "be told",
+      "be telling",
+      "being told",
+      "to be telling"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 33,
+    "question_answer": "being told",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I really admire this woman. She is always ............. .",
+    "subject": "English",
+    "tags": [
+      "good dress",
+      "good dressed",
+      "well - dressed",
+      "well- dress"
+    ],
+    "choices": [
+      "good dress",
+      "good dressed",
+      "well - dressed",
+      "well- dress"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 34,
+    "question_answer": "well - dressed",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Can you tell me ................... now?",
+    "subject": "English",
+    "tags": [
+      "what time is it",
+      "what time it is",
+      "what time is",
+      "what time is it being"
+    ],
+    "choices": [
+      "what time is it",
+      "what time it is",
+      "what time is",
+      "what time is it being"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 35,
+    "question_answer": "what time it is",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "Responsible tourism entails making careful choices that will not affect the environment negatively.",
+    "subject": "English",
+    "tags": [
+      "translation",
+      "arabic",
+      "english"
+    ],
+    "choices": [
+      "ينطوي على السياحة المسؤولة اتخاذ خيارات حريصة ال تؤثر بالسلب على البيئة.",
+      "تنطوي السياحة المسؤولة على فرض الخيارات متأنية مما يؤثر بالسلب على البيئة.",
+      "تنطوي السياحة المسؤولة على اتخاذ قرارات متأنية تؤثر بالسلب على البيئة.",
+      "تنطوي السياحة المسؤولة على اتخاذ قرارات متأنية ال تؤثر بالسلب على البيئة."
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 36,
+    "question_answer": "تنطوي السياحة المسؤولة على اتخاذ قرارات متأنية ال تؤثر بالسلب على البيئة.",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "It has been proven that meditation helps create a stress-free work environment and improves productivity rates.",
+    "subject": "English",
+    "tags": [
+      "translation",
+      "arabic",
+      "english"
+    ],
+    "choices": [
+      "قد ثبت أن التأمل يُساعد على تهيئة بيئة عمل خالية من التوتر ويحسن أسعار اإلنتاجية.",
+      "لقد ثبت أن التأمل يُساعد على تهيئة بيئة عمل خالية من التوتر ويحسن معدالت اإلنتاجية.",
+      "لقد ثبت أن الوساطة تساعد على تهيئة بيئة عمل بال توتر وتحسين معدالت اإلنتاجية.",
+      "كبيرة إنتاجية وتحقيق توتر بال عمل بيئة خلق في يساعد التأمل أن ثبت قد"
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 37,
+    "question_answer": "لقد ثبت أن التأمل يُساعد على تهيئة بيئة عمل خالية من التوتر ويحسن معدالت اإلنتاجية.",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "لقد يسرت التجارة اإللكترونية على الكثير من الناس عملية البيع والشراء إلكتروني ا ,وهذا بدوره يوفر الوقت والجهد فضال عن خلق مناخا تنافسيا يصب في صالح المستهلك أوال.",
+    "subject": "English",
+    "tags": [
+      "translation",
+      "arabic",
+      "english"
+    ],
+    "choices": [
+      "E-commerce has made it easier for many people to buy and trade electronically. This, in turn, saves time and effort in addition to creating a competitive climate that benefits the producer first.",
+      "E-learning has made it easier for many people to buy and sell electronically. This, in turn, saves time and effort in addition to creating a complete climate that benefits the consumer first.",
+      "E-commerce has made it easier for many people to buy and sell electronically. This, in turn, saves time and effort in addition to creating a competitive environment that benefits the consumer first",
+      "E-commerce has made it easier for many people to buy and sell electrically. This, in turn, saves time and effort in addition to creating a competitive environment that fits the consumer first."
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 38,
+    "question_answer": "E-commerce has made it easier for many people to buy and sell electronically. This, in turn, saves time and effort in addition to creating a competitive environment that benefits the consumer first",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "البد أن تتعلم كيفية إدارة الوقت وترتيب أولوياتك حتى تنجز الكثير من المهام المختلفة بكفاءة وفي وقت مناسب وهذا بالتأكيد يجعلك شخصا منتجا وناجح ا في الحياة.",
+    "subject": "English",
+    "tags": [
+      "translation",
+      "arabic",
+      "english"
+    ],
+    "choices": [
+      "You must learn how to arrange your time and manage your priorities in order to accomplish a lot of different tasks efficiently promptly. This definitely makes you a productive and successful person in life.",
+      "You must learn how to manage your time and arrange your priorities to accomplish a lot of different tasks sufficiently promptly. This definitely makes you a productive and successful person in career.",
+      "You must learn how to manage your time and arrange your priorities to accomplish a lot of different tasks efficiently in a timely manner. This definitely makes you a productive and successful person in life.",
+      "You must learn when to manage your time and arrange your priorities in order to refresh a lot of different tasks efficiently in a timely manner. This definitely makes you a consumer and successful person in life."
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 39,
+    "question_answer": "You must learn how to manage your time and arrange your priorities to accomplish a lot of different tasks efficiently in a timely manner. This definitely makes you a productive and successful person in life.",
+    "meta_data": {}
+  },
+  {
+    "title": "Literature",
+    "content": "How does Pip feel about Estella, and how does she treat him throughout the story?",
+    "subject": "English",
+    "tags": [
+      "Great Expectations",
+      "Charles Dickens",
+      "literature"
+    ],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 40,
+    "question_answer": "Pip is deeply infatuated with Estella and is often captivated by her beauty and sophistication. However, Estella treats Pip with coldness and condescension, frequently reminding him of his lower social status and making him feel inadequate.",
+    "meta_data": {}
+  },
+  {
+    "title": "Literature",
+    "content": "What motivates Pip to become a gentleman in Great Expectations?",
+    "subject": "English",
+    "tags": [
+      "Great Expectations",
+      "Charles Dickens",
+      "literature"
+    ],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 41,
+    "question_answer": "Pip is motivated to become a gentleman by his desire to win Estella's approval and love, as well as by his wish to rise above his humble origins and gain social status.",
+    "meta_data": {}
+  },
+  {
+    "title": "Writing",
+    "content": "Write an introductory paragraph of about six lines on: The Benefits of Outdoor Activities",
+    "subject": "English",
+    "tags": [
+      "essay",
+      "future challenges",
+      "self-development"
+    ],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "1b0a313a-60e4-408c-92fe-b3902b0aea22",
+    "question_number": 42,
+    "question_answer": "",
+    "meta_data": {}
+  }
+]
+}

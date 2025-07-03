@@ -1,0 +1,699 @@
+{
+  "questions":[
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I tried ............ up chocolate, but it was too hard. I used to eat some when my friends offered it to me.",
+    "subject": "English",
+    "tags": ["give", "given", "giving", "to give"],
+    "choices": ["give", "given", "giving", "to give"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 1,
+    "question_answer": "to give",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "My father always donates and helps charities and poor people, ............ is kind of him.",
+    "subject": "English",
+    "tags": ["which", "that", "who", "whom"],
+    "choices": ["which", "that", "who", "whom"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 2,
+    "question_answer": "which",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "There is no doubt that Ali’s ............ for the job is remarkable; he is really efficient.",
+    "subject": "English",
+    "tags": ["suitability", "suitable", "suits", "suit"],
+    "choices": ["suitability", "suitable", "suits", "suit"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 3,
+    "question_answer": "suitability",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I used to have the mechanic ............ my car every year when I was abroad.",
+    "subject": "English",
+    "tags": ["to repair", "repaired", "repairing", "repair"],
+    "choices": ["to repair", "repaired", "repairing", "repair"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 4,
+    "question_answer": "repair",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I used to help my teachers to give ............ the books when I was at school.",
+    "subject": "English",
+    "tags": ["in", "on", "away", "out"],
+    "choices": ["in", "on", "away", "out"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 5,
+    "question_answer": "out",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Trees ............ in rainforests can reach a height more than 30 metres.",
+    "subject": "English",
+    "tags": ["grows", "grown", "are grown", "grew"],
+    "choices": ["grows", "grown", "are grown", "grew"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 6,
+    "question_answer": "grown",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "................ you lived on the moon, how would you feel?",
+    "subject": "English",
+    "tags": ["In case of", "Supposing", "Provides", "Imagined"],
+    "choices": ["In case of", "Supposing", "Provides", "Imagined"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 7,
+    "question_answer": "Supposing",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "We’re going to get a maid ............ us at home.",
+    "subject": "English",
+    "tags": ["help", "to help", "helped", "be helped"],
+    "choices": ["help", "to help", "helped", "be helped"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 8,
+    "question_answer": "to help",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Many people have a fixed idea about how artists behave, which is known as a ............ .",
+    "subject": "English",
+    "tags": ["fact", "stereotype", "observation", "truth"],
+    "choices": ["fact", "stereotype", "observation", "truth"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 9,
+    "question_answer": "stereotype",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Judging someone negatively based on their race or religion without knowing them personally is an example of .............. .",
+    "subject": "English",
+    "tags": ["curiosity", "acceptance", "prejudice", "understanding"],
+    "choices": ["curiosity", "acceptance", "prejudice", "understanding"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 10,
+    "question_answer": "prejudice",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The professor asked the student to .............. on his answer to provide more details.",
+    "subject": "English",
+    "tags": ["explain", "simplify", "elaborate", "conclude"],
+    "choices": ["explain", "simplify", "elaborate", "conclude"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 11,
+    "question_answer": "elaborate",
+    "meta_data": {}
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Why has recycling become a necessity?",
+    "subject": "English",
+    "tags": ["recycling", "necessity", "reading_comprehension"],
+    "choices": [
+      "It helps reduce land pollution.",
+      "It addresses the shortage of natural resources.",
+      "It mitigates the increasing costs of raw materials.",
+      "All of the above."
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 12,
+    "question_answer": "All of the above.",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "How does recycling help save valuable natural resources?",
+    "subject": "English",
+    "tags": ["recycling", "natural resources", "reading_comprehension"],
+    "choices": [
+      "By increasing waste production",
+      "By reducing the need for new materials",
+      "By promoting deforestation",
+      "By encouraging resource depletion"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 13,
+    "question_answer": "By reducing the need for new materials",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "In what way does recycling save manufacturers' money?",
+    "subject": "English",
+    "tags": ["recycling", "manufacturers' money", "reading_comprehension"],
+    "choices": [
+      "By increasing production costs",
+      "By providing cheaper raw materials",
+      "By requiring more energy consumption",
+      "By decreasing efficiency"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 14,
+    "question_answer": "By providing cheaper raw materials",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "How does recycling contribute to job creation?",
+    "subject": "English",
+    "tags": ["recycling", "job creation", "reading_comprehension"],
+    "choices": [
+      "By eliminating job opportunities",
+      "By creating new jobs in recycling industries",
+      "By outsourcing jobs to other countries",
+      "By reducing workforce needs"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 15,
+    "question_answer": "By creating new jobs in recycling industries",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What does \"it\" refer to in the text?",
+    "subject": "English",
+    "tags": ["pronoun reference", "recycling", "reading_comprehension"],
+    "choices": [
+      "All the rubbish that could be recycled",
+      "The process of recycling",
+      "The recycling industry",
+      "Waste management"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 16,
+    "question_answer": "All the rubbish that could be recycled",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "What does \"this demand\" refer to in the text?",
+    "subject": "English",
+    "tags": ["demand", "recycling", "reading_comprehension"],
+    "choices": [
+      "A need for more recycling facilities",
+      "An acceptable income",
+      "Increased public awareness",
+      "Government regulations"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 17,
+    "question_answer": "An acceptable income",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "According to the text which of the following is not a product of recycling?",
+    "subject": "English",
+    "tags": ["recycling", "products", "reading_comprehension"],
+    "choices": [
+      "calcium",
+      "oil",
+      "fertilizer",
+      "paper"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 18,
+    "question_answer": "oil",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Which of the following statement (statements) is not true?",
+    "subject": "English",
+    "tags": ["recycling", "truth", "reading_comprehension"],
+    "choices": [
+      "Recycling costs much and could only be afforded in developed countries.",
+      "People in the developing countries need acceptable incomes to share in recycling work.",
+      "In developed countries, people are less likely to accept recycling work.",
+      "Recycling jobs provide low incomes that are more acceptable in the developing countries than in developed countries."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 19,
+    "question_answer": "Recycling costs much and could only be afforded in developed countries.",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "With the birth of the big cities and their exploding population has become the problem of getting rid of their wastes. Many people believe that these cities will eventually bury themselves in their own rubbish unless something is done, and done quickly. They support their argument by stating that in 1985 Mexico City produced 6,000 more tons of rubbish than could be collected.\nThe worries about land pollution, shortage of natural resources (especially wood and oil), increasing costs of raw materials and growing unemployment all point to one solution: recycling. Recyclable waste falls into seven basic groups: paper, glass, plastics, metals, rags, bones and organic matter. The first five groups can be recycled to produce similar products a second time. Organic matter can be used to feed animals or used as fertilizer. Bones produce fat, gelatin and calcium which can be used in animal feed or to make filters.\nAmong the many advantages of recycling are: saving valuable natural resources, preventing land pollution, saving manufacturers' money, creating a lot of jobs (to recycle the waste of Cairo would need 17,000 - 20,000 collectors, 6,000 sorters plus transporters, processors ...etc.), creating new small businesses which can supply many of the major industries and generating money (e.g. in Cairo, if all the rubbish that could be recycled was recycled, it would generate $ 73, 467 a day).\nFor recycling to be a success, it needs the support of the government in supplying areas for dumping, sorting and recycling, and to launch a campaign to persuade the public to co-operate. It needs experts to find suitable people or companies to recycle each material.\nAll the way along the line, from the collector to the seller of the recycled product, there has to be an acceptable income. In this way, meeting this demand is easier in the developing world, where people are on lower incomes, than in developed countries where expectations of reward are higher."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "20. What does AI stand for?",
+    "subject": "English",
+    "tags": ["AI", "artificial intelligence", "reading_comprehension"],
+    "choices": [
+      "Automated Intelligence",
+      "Artificial Intelligence",
+      "Advanced Intelligence",
+      "Analytical Intelligence"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 20,
+    "question_answer": "Artificial Intelligence",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "21. Which of the following is NOT mentioned as a field where AI is used?",
+    "subject": "English",
+    "tags": ["AI", "fields", "reading_comprehension"],
+    "choices": [
+      "Healthcare",
+      "Finance",
+      "Agriculture",
+      "Transportation"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 21,
+    "question_answer": "Agriculture",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "22. What is one of the well-known applications of AI in daily life?",
+    "subject": "English",
+    "tags": ["AI", "applications", "reading_comprehension"],
+    "choices": [
+      "Smart refrigerators",
+      "Virtual assistants",
+      "Autonomous cars",
+      "Drones"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 22,
+    "question_answer": "Virtual assistants",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "23. How is AI used in healthcare?",
+    "subject": "English",
+    "tags": ["AI", "healthcare", "reading_comprehension"],
+    "choices": [
+      "To perform surgeries",
+      "To analyze medical data for diagnostics",
+      "To replace doctors",
+      "To manufacture medical equipment"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 23,
+    "question_answer": "To analyze medical data for diagnostics",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "24. In which field is AI used for fraud detection and algorithmic trading?",
+    "subject": "English",
+    "tags": ["AI", "finance", "reading_comprehension"],
+    "choices": [
+      "Healthcare",
+      "Education",
+      "Finance",
+      "Entertainment"
+    ],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 24,
+    "question_answer": "Finance",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "25. What ethical concern is associated with AI?",
+    "subject": "English",
+    "tags": ["AI", "ethics", "reading_comprehension"],
+    "choices": [
+      "Increased productivity",
+      "Data privacy",
+      "Enhanced entertainment",
+      "Improved accuracy"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 25,
+    "question_answer": "Data privacy",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "26. What must be balanced according to the text?",
+    "subject": "English",
+    "tags": ["AI", "balance", "reading_comprehension"],
+    "choices": [
+      "Innovation and regulation",
+      "Speed and efficiency",
+      "Cost and benefit",
+      "Potential and risk"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 26,
+    "question_answer": "Potential and risk",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "27. Why is it important to address issues like algorithmic bias?",
+    "subject": "English",
+    "tags": ["AI", "algorithmic bias", "reading_comprehension"],
+    "choices": [
+      "To improve technology",
+      "To reduce costs",
+      "To ensure responsible development and use of AI",
+      "To increase sales"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 27,
+    "question_answer": "To ensure responsible development and use of AI",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. Over the past few decades, AI has seen rapid development and has become an integral part of various industries, such as healthcare, finance, transportation, and entertainment.\nAI systems are capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. One of the most well-known applications of AI is in virtual assistants, like Siri and Alexa, which can perform a wide range of tasks based on voice commands.\nIn healthcare, AI is being used to improve diagnostics and treatment plans by analyzing large amounts of medical data. For instance, AI algorithms can help detect diseases like cancer at an early stage by examining medical images. In finance, AI is used for fraud detection, algorithmic trading, and personalized financial advice.\nHowever, the rise of AI also raises ethical concerns and challenges. Issues such as data privacy, job displacement, and algorithmic bias need to be addressed to ensure that AI is developed and used responsibly. As AI continues to evolve, it is crucial to strike a balance between leveraging its potential and mitigating its risks."
+    }
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "28. ............ my two brothers likes swimming.",
+    "subject": "English",
+    "tags": ["Every of", "Neither of", "None", "Either"],
+    "choices": ["Every of", "Neither of", "None", "Either"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 28,
+    "question_answer": "Either",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "29. Drivers ............ wear a seat belt while driving into the city.",
+    "subject": "English",
+    "tags": ["need", "might", "must have", "have to"],
+    "choices": ["need", "might", "must have", "have to"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 29,
+    "question_answer": "have to",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "30. Maria said she had not visited her aunt ............... .",
+    "subject": "English",
+    "tags": ["yesterday", "the day after", "the previous day", "the following day"],
+    "choices": ["yesterday", "the day after", "the previous day", "the following day"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 30,
+    "question_answer": "the previous day",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "31. ............ well, he would have gone out for a walk.",
+    "subject": "English",
+    "tags": ["Were he", "Were he to feel", "Had he", "Had he been"],
+    "choices": ["Were he", "Were he to feel", "Had he", "Had he been"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 31,
+    "question_answer": "Had he been",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "32. My mum admired the car ............. .",
+    "subject": "English",
+    "tags": ["I bought", "that I bought it", "which I bought for", "I bought it"],
+    "choices": ["I bought", "that I bought it", "which I bought for", "I bought it"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 32,
+    "question_answer": "I bought",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "33. ............ next summer, my brother will have finished the course.",
+    "subject": "English",
+    "tags": ["In", "The", "At", "By"],
+    "choices": ["In", "The", "At", "By"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 33,
+    "question_answer": "By",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "34. My father is a civil rights defender. He belongs to an international rights ............ .",
+    "subject": "English",
+    "tags": ["accommodation", "association", "deprivation", "cultivation"],
+    "choices": ["accommodation", "association", "deprivation", "cultivation"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 34,
+    "question_answer": "association",
+    "meta_data": {}
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "35. I ............ at the garage once a month.",
+    "subject": "English",
+    "tags": ["have checked my car", "have my car checked", "have my car is checked", "check my car"],
+    "choices": ["have checked my car", "have my car checked", "have my car is checked", "check my car"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 35,
+    "question_answer": "have my car checked",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "36. Artificial Intelligence (AI) is revolutionizing the world at an unprecedented pace. Its applications are vast, ranging from healthcare to finance, and its potential for future advancements seems limitless.",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "الذكاء االصطناعي يعيد تشكيل العالم بسرعة غير مسبوقة .تطبيقاته واسعة ،النطاق بدءًا من الرعاية الصحية وحتى ،التمويل ويبدو أن إمكانياته المستقبلية ال حدود .لها",
+      "يُحدث الذكاء االصطناعي ثورة في العالم بوتيرة غير مسبوقة .تطبيقاته ،متعددة من الرعاية الصحية إلى ،التمويل وإمكانياته المستقبلية تبدو بال .حدود",
+      "الذكاء االصطناعي يغيّر العالم بشكل غير مسبوق .تتنوع تطبيقاته من الرعاية الصحية إلى ،المالية وإمكانياته المستقبلية تبدو غير محدودة.",
+      "يُحدث الذكاء االصطناعي تغييرًا جذريًا في العالم بسرعة غير مسبوقة .تتعدد ،تطبيقاته بدءًا من الرعاية الصحية إلى ،التمويل ويبدو أن إمكانياته المستقبلية ال نهاية .لها"
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 36,
+    "question_answer": "الذكاء االصطناعي يغيّر العالم بشكل غير مسبوق .تتنوع تطبيقاته من الرعاية الصحية إلى ،المالية وإمكانياته المستقبلية تبدو غير محدودة.",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "37. Climate change is one of the most pressing issues facing humanity today. It affects every aspect of our lives, from the food we eat to the air we breathe, and requires immediate and sustained action from all sectors of society.",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "تغير المناخ هو واحد من أكثر القضايا الملحة التي تواجه البشرية اليوم .يؤثر على كل جانب من جوانب ،حياتنا من الطعام الذي نأكله إلى الهواء الذي ،نتنفسه ويتطلب ًعمال فوريًا ومستدامًا من جميع قطاعات المجتمع.",
+      "يعد التغير المناخي من أكثر القضايا إلحاحًا التي تواجه اإلنسان حاليًا .يؤثر على كل جانب من جوانب ،حياتنا من الطعام الذي نأكله إلى الهواء الذي ،نتنفسه ويتطلب إجراءات فورية ومستمرة من جميع قطاعات المجتمع.",
+      "التغير المناخي هو من بين القضايا األكثر إلحاحًا التي تواجه البشرية في الوقت الراهن .يؤثر على كل جانب من جوانب ،حياتنا من الطعام الذي نأكله إلى الهواء الذي ،نتنفسه ويحتاج إلى استجابة عاجلة ومستدامة من جميع قطاعات المجتمع.",
+      "يعتبر تغير المناخ من أكثر القضايا إلحاحًا التي تواجه البشرية اليوم .له تأثير على جميع جوانب ،حياتنا بدءًا من الطعام الذي نأكله وحتى الهواء الذي ،نتنفسه ويتطلب تحركًا فوريًا ومستدامًا من كل قطاعات المجتمع."
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 37,
+    "question_answer": "يعد التغير المناخي من أكثر القضايا إلحاحًا التي تواجه اإلنسان حاليًا .يؤثر على كل جانب من جوانب ،حياتنا من الطعام الذي نأكله إلى الهواء الذي ،نتنفسه ويتطلب إجراءات فورية ومستمرة من جميع قطاعات المجتمع.",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "38. Although I studied all night to prepare for the test, I felt extremely anxious when I started the questions. However, I tried to stay calm, and my answers were worse than I expected.",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "Although I studied all night to prepare for the test, I felt extremely anxious when I started the questions. However, I tried to stay calm, and my answers were worse than I expected.",
+      "Despite studying all night for the test, I felt very nervous when the questions began. However, I managed to stay calm, and my answers turned out better than I expected.",
+      "I studied for the test all night, and I felt confident when the questions started. However, my answers were not what I had anticipated.",
+      "Although I didn’t study enough for the test, I felt very calm when the questions began, and my answers were exactly what I expected."
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 38,
+    "question_answer": "Despite studying all night for the test, I felt very nervous when the questions began. However, I managed to stay calm, and my answers turned out better than I expected.",
+    "meta_data": {}
+  },
+  {
+    "title": "Translation",
+    "content": "39. The trip to the mountains in the winter was unforgettable, with snow covering the peaks and the air being cold and refreshing. We enjoyed long walks and the beautiful scenery, but we had to leave because of the storm that was approaching.",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [
+      "The trip to the mountains in the winter was unforgettable, with snow covering the peaks and the air being cold and refreshing. We enjoyed long walks and the beautiful scenery, but we had to leave because of the storm that was approaching.",
+      "The winter journey to the mountains was not as exciting, with only a light dusting of snow. We didn’t get to walk much because the weather was too warm, but we stayed for the entire day.",
+      "The winter trip to the mountains was enjoyable despite the heavy snowstorm that made hiking impossible. The scenery was beautiful, but we couldn’t go outside.",
+      "We went to the mountains in winter, but the weather was too harsh to enjoy the cold air, and we didn’t walk at all because of the storm."
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 39,
+    "question_answer": "The trip to the mountains in the winter was unforgettable, with snow covering the peaks and the air being cold and refreshing. We enjoyed long walks and the beautiful scenery, but we had to leave because of the storm that was approaching.",
+    "meta_data": {}
+  },
+  {
+    "title": "Literature",
+    "content": "40. How does Pip first meet Estella, and what is his initial impression of her?",
+    "subject": "English",
+    "tags": ["Great Expectations", "Charles Dickens", "literature"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 40,
+    "question_answer": "Pip first meets Estella at Miss Havisham's house, where she is introduced as a beautiful but proud and scornful girl. Pip is immediately struck by her beauty and elegance, but also feels humiliated by her coldness and the way she mocks his manners and social class.",
+    "meta_data": {}
+  },
+  {
+    "title": "Literature",
+    "content": "41. How does Estella's upbringing influence her relationship with Pip?",
+    "subject": "English",
+    "tags": ["Great Expectations", "Charles Dickens", "literature"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 41,
+    "question_answer": "Estella's upbringing under Miss Havisham, who raises her to break men's hearts as revenge for her own heartbreak, makes Estella emotionally distant and unable to reciprocate Pip's affection. This upbringing shapes her into someone who struggles with genuine feelings and treats Pip with indifference and coldness.",
+    "meta_data": {}
+  },
+  {
+    "title": "Writing",
+    "content": "42. Write an introductory paragraph of about six lines on the following topic: The Benefits of Reading",
+    "subject": "English",
+    "tags": ["essay", "future challenges", "self-development"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "52a408cb-6c4f-4262-ba06-9617fdff883d",
+    "question_number": 42,
+    "question_answer": "",
+    "meta_data": {}
+  }
+]
+
+}

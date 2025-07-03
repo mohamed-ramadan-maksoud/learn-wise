@@ -623,7 +623,7 @@ async function tutorialRoutes(fastify, options) {
         type: 'object',
         required: ['query'],
         properties: {
-          query: { type: 'string', description: 'Search query for tutorial content' },
+          query: { type: 'string', description: 'Search query for RAG' },
           maxResults: { type: 'number', default: 5, description: 'Maximum number of results' }
         }
       },
@@ -633,8 +633,8 @@ async function tutorialRoutes(fastify, options) {
           properties: {
             success: { type: 'boolean' },
             query_answer: { type: 'string', description: 'AI-generated answer to the query' },
-            summary_by_ai: { type: 'string', description: 'AI-generated summary of tutorial content' },
-            generated_questions: {
+            question_exam_answer: { type: 'string', description: 'Detailed exam-style answer' },
+            generated_similar_questions: {
               type: 'array',
               items: {
                 type: 'object',

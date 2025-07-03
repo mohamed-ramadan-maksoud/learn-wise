@@ -1,0 +1,527 @@
+{
+  "questions":[
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Generally speaking, I ...... film reviews because I like to be open-minded when I go to the cinema.",
+    "subject": "English",
+    "tags": ["am not reading", "don't read", "haven't read", "haven't been reading"],
+    "choices": ["a. am not reading", "b. don't read", "c. haven't read", "d. haven't been reading"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 1,
+    "question_answer": "b. don't read"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I think you ...... your energy by sweeping up those leaves, stop it! The wind will blow more down.",
+    "subject": "English",
+    "tags": ["wasted", "waste", "are wasting", "were wasting"],
+    "choices": ["a. wasted", "b. waste", "c. are wasting", "d. were wasting"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 2,
+    "question_answer": "c. are wasting"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Before you mentioned about him, I ...... of that novelist.",
+    "subject": "English",
+    "tags": ["hadn't ever heard", "wasn't hearing", "haven't ever heard", "don't ever hear"],
+    "choices": ["a. hadn't ever heard", "b. wasn't hearing", "c. haven't ever heard", "d. don't ever hear"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 3,
+    "question_answer": "a. hadn't ever heard"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I ...... my books in the class. Could you go and fetch them for me?",
+    "subject": "English",
+    "tags": ["had left", "am leaving", "have left", "was leaving"],
+    "choices": ["a. had left", "b. am leaving", "c. have left", "d. was leaving"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 4,
+    "question_answer": "c. have left"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "It is more than 20 years ...... the writer wrote a short story.",
+    "subject": "English",
+    "tags": ["on", "since", "for", "while"],
+    "choices": ["a. on", "b. since", "c. for", "d. while"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 5,
+    "question_answer": "b. since"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I don't think the film is worth ...... .",
+    "subject": "English",
+    "tags": ["seeing", "to see", "to have been seen", "to be seen"],
+    "choices": ["a. seeing", "b. to see", "c. to have been seen", "d. to be seen"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 6,
+    "question_answer": "a. seeing"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "...... his unexpected death, he would have been the world wrestling champion several times.",
+    "subject": "English",
+    "tags": ["If it weren't for", "But for", "If", "Unless"],
+    "choices": ["a. If it weren't for", "b. But for", "c. If", "d. Unless"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 7,
+    "question_answer": "b. But for"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Can I talk to the man ...... on the bench near you?",
+    "subject": "English",
+    "tags": ["is sitting", "whom sits", "who sitting", "sitting"],
+    "choices": ["a. is sitting", "b. whom sits", "c. who sitting", "d. sitting"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 8,
+    "question_answer": "d. sitting"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "There has been a decrease in the number of applications since the report on environmental pollution ...... in the newspaper.",
+    "subject": "English",
+    "tags": ["was appeared", "has appeared", "appeared", "has been appeared"],
+    "choices": ["a. was appeared", "b. has appeared", "c. appeared", "d. has been appeared"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 9,
+    "question_answer": "c. appeared"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Neither my parents nor my brother ...... football.",
+    "subject": "English",
+    "tags": ["like", "are liked", "likes", "is liked"],
+    "choices": ["a. like", "b. are liked", "c. likes", "d. is liked"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 10,
+    "question_answer": "c. likes"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Only half of the exercises have been done so far, but the rest ...... by Saturday.",
+    "subject": "English",
+    "tags": ["will be finished", "are going to be finished", "will have been finished", "will be finishing"],
+    "choices": ["a. will be finished", "b. are going to be finished", "c. will have been finished", "d. will be finishing"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 11,
+    "question_answer": "c. will have been finished"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "On your first day in a new job, you should make a good ...... .",
+    "subject": "English",
+    "tags": ["impression", "depression", "tradition", "expression"],
+    "choices": ["a. impression", "b. depression", "c. tradition", "d. expression"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 12,
+    "question_answer": "a. impression"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "There's no doubt that Sara's ...... for the job. She is very efficient.",
+    "subject": "English",
+    "tags": ["suitable", "suit", "suitability", "suiting"],
+    "choices": ["a. suitable", "b. suit", "c. suitability", "d. suiting"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 13,
+    "question_answer": "a. suitable"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "We got ...... wet in the rainstorm.",
+    "subject": "English",
+    "tags": ["soaked", "soaking", "soak", "to soak"],
+    "choices": ["a. soaked", "b. soaking", "c. soak", "d. to soak"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 14,
+    "question_answer": "b. soaking"
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "I have ...... sent him an e-mail; I expect him to send me a cheque soon.",
+    "subject": "English",
+    "tags": ["yet", "ever", "all ready", "recently", "reading_comprehension"],
+    "choices": ["a. yet", "b. ever", "c. all ready", "d. recently"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 15,
+    "question_answer": "d. recently",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "I have recently sent him an e-mail; I expect him to send me a cheque soon. The matter is quite urgent as I need to settle the payment before the end of the month. If I don't receive his response within the next few days, I'll have to follow up with a phone call to ensure everything is proceeding as planned."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "A publisher is a person or company that produces books, magazines, etc., and makes them ...... for people to buy.",
+    "subject": "English",
+    "tags": ["available", "availableness", "unavailable", "availability", "reading_comprehension"],
+    "choices": ["a. available", "b. availableness", "c. unavailable", "d. availability"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 16,
+    "question_answer": "a. available",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "A publisher is a person or company that produces books, magazines, etc., and makes them available for people to buy. Publishers play a crucial role in the dissemination of knowledge and entertainment, working with authors, editors, and designers to create high-quality publications that appeal to various audiences."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "He ...... a headache when he works on the laptop for long.",
+    "subject": "English",
+    "tags": ["gets", "makes", "works", "gives", "reading_comprehension"],
+    "choices": ["a. gets", "b. makes", "c. works", "d. gives"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 17,
+    "question_answer": "a. gets",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "He gets a headache when he works on the laptop for long. This is likely due to eye strain from staring at the screen for extended periods without breaks. Doctors recommend following the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds to reduce eye fatigue and prevent headaches."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Travelling presents new and exciting experiences which I may not ...... .",
+    "subject": "English",
+    "tags": ["count", "counter", "encounter", "account", "reading_comprehension"],
+    "choices": ["a. count", "b. counter", "c. encounter", "d. account"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 18,
+    "question_answer": "c. encounter",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Travelling presents new and exciting experiences which I may not encounter in my daily routine. Each journey offers opportunities to meet different people, taste unfamiliar foods, and observe diverse customs. These experiences broaden my perspective and help me appreciate the richness of human culture across the world."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Reading literature helps us to become more tolerant and ...... towards others.",
+    "subject": "English",
+    "tags": ["impact", "empathic", "enthusiast", "interact", "reading_comprehension"],
+    "choices": ["a. impact", "b. empathic", "c. enthusiast", "d. interact"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 19,
+    "question_answer": "b. empathic",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Reading literature helps us to become more tolerant and empathic towards others. By immersing ourselves in characters' lives and perspectives different from our own, we develop a deeper understanding of human experiences and emotions. This enhanced empathy can improve our real-life relationships and make us more compassionate members of society."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Some storms are very unusual and may ...... terrible damage.",
+    "subject": "English",
+    "tags": ["result", "reason", "cause", "effect", "reading_comprehension"],
+    "choices": ["a. result", "b. reason", "c. cause", "d. effect"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 20,
+    "question_answer": "c. cause",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Some storms are very unusual and may cause terrible damage. Hurricanes, tornadoes, and severe thunderstorms can destroy homes, uproot trees, and flood communities. Climate scientists warn that as global temperatures rise, we may experience more frequent and intense storms, making preparedness and early warning systems increasingly important."
+    }
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I enjoy ...... moments I spend with you.",
+    "subject": "English",
+    "tags": ["each", "each of", "all", "every of"],
+    "choices": ["a. each", "b. each of", "c. all", "d. every of"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 21,
+    "question_answer": "c. all"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "After the company closed, she began to work ...... .",
+    "subject": "English",
+    "tags": ["finance", "freelance", "assistance", "freedom"],
+    "choices": ["a. finance", "b. freelance", "c. assistance", "d. freedom"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 22,
+    "question_answer": "b. freelance"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "He took ...... management in an attempt to improve conditions for the workers.",
+    "subject": "English",
+    "tags": ["off", "out", "to", "on"],
+    "choices": ["a. off", "b. out", "c. to", "d. on"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 23,
+    "question_answer": "d. on"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "There are times when you can't work ...... to live comfortably.",
+    "subject": "English",
+    "tags": ["enough hard", "hard enough", "hardly enough", "too hard"],
+    "choices": ["a. enough hard", "b. hard enough", "c. hardly enough", "d. too hard"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 24,
+    "question_answer": "b. hard enough"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Parents should spend some ...... of time with their children every day.",
+    "subject": "English",
+    "tags": ["equality", "quantity", "quality", "qualification"],
+    "choices": ["a. equality", "b. quantity", "c. quality", "d. qualification"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 25,
+    "question_answer": "c. quality"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Adham was angry because he ...... to his friend's party.",
+    "subject": "English",
+    "tags": ["didn't invite", "hasn't invited", "wasn't invited", "hadn't invited"],
+    "choices": ["a. didn't invite", "b. hasn't invited", "c. wasn't invited", "d. hadn't invited"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 26,
+    "question_answer": "c. wasn't invited"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Having ...... coldly, he got upset.",
+    "subject": "English",
+    "tags": ["to being met", "being met", "met", "been met"],
+    "choices": ["a. to being met", "b. being met", "c. met", "d. been met"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 27,
+    "question_answer": "d. been met"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "They were ...... close to winning that everyone felt disappointed with the loss.",
+    "subject": "English",
+    "tags": ["so", "such", "enough", "too"],
+    "choices": ["a. so", "b. such", "c. enough", "d. too"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 28,
+    "question_answer": "a. so"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The book ...... had many pictures.",
+    "subject": "English",
+    "tags": ["I gave you", "that I gave you it", "that I gave it to you", "which gave you"],
+    "choices": ["a. I gave you", "b. that I gave you it", "c. that I gave it to you", "d. which gave you"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 29,
+    "question_answer": "a. I gave you"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "She missed the ...... so she couldn't apply for the job.",
+    "subject": "English",
+    "tags": ["offline", "online", "headline", "deadline"],
+    "choices": ["a. offline", "b. online", "c. headline", "d. deadline"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 30,
+    "question_answer": "d. deadline"
+  },
+  {
+    "title": "Literature",
+    "content": "Why is Antoinette de Mauban a prisoner in the Duke's mansion?",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. Because she is a murderer.",
+      "b. Because she wants to marry the Duke.",
+      "c. Because she wants to marry Rassendyll.",
+      "d. Because the Duke cannot trust her."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 31,
+    "question_answer": "d. Because the Duke cannot trust her."
+  },
+  {
+    "title": "Literature",
+    "content": "What happened to Rupert at the end?",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. Rassendyll killed him.",
+      "b. Sapt and Fritz captured him.",
+      "c. He escaped",
+      "d. Michael punished him."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 32,
+    "question_answer": "c. He escaped"
+  },
+  {
+    "title": "Literature",
+    "content": "The Duke's main aim is ......",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. To marry Flavia",
+      "b. To be the king",
+      "c. To meet Rassendylld. To meet Antoinette"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 33,
+    "question_answer": "b. To be the king"
+  },
+  {
+    "title": "Literature",
+    "content": "The poor people supported the Duke because he ......",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. had always lived abroad.",
+      "b. was almost a stranger.",
+      "c. promised them a better future.",
+      "d. wanted to marry Flavia."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 34,
+    "question_answer": "c. promised them a better future."
+  },
+  {
+    "title": "Writing",
+    "content": "Finish the following dialogue: Tom Jones is sitting at the cinema. He's sitting on the right-hand side which is usually reserved for nonsmokers. He's rather surprised when he hears a man saying:",
+    "subject": "English",
+    "tags": ["dialogue", "writing"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 35,
+    "question_answer": "Sample answer:\n1. Have you got a light?\n2. Nobody pays attention to that.\n3. put out your cigarette\n4. Isn't there any other solution?\n5. you can smoke.\n6. don't be angry. / accept my apology."
+  },
+  {
+    "title": "Writing",
+    "content": "Write a paragraph of about ONE HUNDRED AND TWENTY (120) words on a. Our duty towards the environment. b. What it would be if a world is without trees.",
+    "subject": "English",
+    "tags": ["essay", "environment", "trees"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 36,
+    "question_answer": "Sample answer: A world without trees would be catastrophic for all life forms. Trees produce oxygen, absorb carbon dioxide, prevent soil erosion, and provide habitats for countless species. Without them, air quality would deteriorate dramatically, leading to respiratory diseases. The loss of tree roots would cause massive soil erosion and flooding. Many animals would become extinct as their habitats disappear. The climate would change drastically as trees regulate temperature and rainfall patterns. Human life would become extremely difficult without wood products, fruits, and medicinal compounds derived from trees. This bleak scenario demonstrates why we must protect existing forests and plant more trees to ensure a sustainable future for our planet."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into Arabic: 'The future belongs to quick-thinking people who are resourceful, ambitious and can take the initiative.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 37,
+    "question_answer": "المستقبل ينتمي إلى الأشخاص سريعي التفكير الذين يتمتعون بسعة الحيلة والطموح ويمكنهم أخذ المبادرة."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into Arabic: 'A house is made of walls and beams. A home is built with love and dreams.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 38,
+    "question_answer": "يتكون المنزل من جدران وعوارض، أما البيت فيبنى بالحب والأحلام."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into English: 'ثروة مصر الحقيقية تكمن في مواردها البشرية وإبداع شبابها وتميزهم في جميع المجالات.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 39,
+    "question_answer": "Egypt's real wealth lies in its human resources and the creativity and excellence of its youth in all fields."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into English: 'سيظل الكتاب المصدر المفضل للمعرفة لدى معظم المثقفين في جميع أنحاء العالم.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "4baf47d2-2d18-403e-9adf-177bd0d573ef",
+    "question_number": 40,
+    "question_answer": "The book will continue to be the preferred source of knowledge for most intellectuals around the world."
+  }
+]
+}

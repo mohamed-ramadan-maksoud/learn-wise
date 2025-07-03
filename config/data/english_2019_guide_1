@@ -1,0 +1,534 @@
+
+{
+  "questions":[
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Although the police suspected him, he was able to prove that he ...... when the crime was committed.",
+    "subject": "English",
+    "tags": ["was working", "worked", "had worked", "had been working"],
+    "choices": ["a. was working", "b. worked", "c. had worked", "d. had been working"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 1,
+    "question_answer": "a. was working"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Someone next door ...... heavy metal music all night long. I didn't get a wink of sleep.",
+    "subject": "English",
+    "tags": ["was playing", "has played", "had been playing", "has been playing"],
+    "choices": ["a. was playing", "b. has played", "c. had been playing", "d. has been playing"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 2,
+    "question_answer": "a. was playing"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Yesterday newspapers said that he ...... a three-year contract",
+    "subject": "English",
+    "tags": ["had signed", "would have signed", "was singing", "has signed"],
+    "choices": ["a. had signed", "b. would have signed", "c. was singing", "d. has signed"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 3,
+    "question_answer": "a. had signed"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "...... he was a student, he was writing short stories.",
+    "subject": "English",
+    "tags": ["After", "As soon as", "While", "On"],
+    "choices": ["a. After", "b. As soon as", "c. While", "d. On"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 4,
+    "question_answer": "c. While"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "We must take action to cut vehicle ......",
+    "subject": "English",
+    "tags": ["missions", "omissions", "commissions", "emissions"],
+    "choices": ["a. missions", "b. omissions", "c. commissions", "d. emissions"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 5,
+    "question_answer": "d. emissions"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Dina ...... have been at school yesterday. The list of the absentees didn't include her name.",
+    "subject": "English",
+    "tags": ["must", "can't", "needn't", "mustn't"],
+    "choices": ["a. must", "b. can't", "c. needn't", "d. mustn't"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 6,
+    "question_answer": "a. must"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Do you object ...... to Hurghada? Where else can we go?",
+    "subject": "English",
+    "tags": ["being taken", "be taken", "to be taken", "to being taken"],
+    "choices": ["a. being taken", "b. be taken", "c. to be taken", "d. to being taken"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 7,
+    "question_answer": "d. to being taken"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I could never have found such a good job, ......, thank you.",
+    "subject": "English",
+    "tags": ["if I haven't graduated from Oxford University", "unless I study eight hours a day", "if I hadn't been unemployed", "if it hadn't been for your help"],
+    "choices": [
+      "a. if I haven't graduated from Oxford University",
+      "b. unless I study eight hours a day",
+      "c. if I hadn't been unemployed",
+      "d. if it hadn't been for your help"
+    ],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 8,
+    "question_answer": "d. if it hadn't been for your help"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "However, he kept ...... into the jungle as if there was no danger.",
+    "subject": "English",
+    "tags": ["to go", "going", "to going", "to have gone"],
+    "choices": ["a. to go", "b. going", "c. to going", "d. to have gone"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 9,
+    "question_answer": "b. going"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The man ...... car was stolen, called the police.",
+    "subject": "English",
+    "tags": ["who", "whom", "whose", "That"],
+    "choices": ["a. who", "b. whom", "c. whose", "d. That"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 10,
+    "question_answer": "c. whose"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "She is really a good friend and she ...... to send me a letter each month.",
+    "subject": "English",
+    "tags": ["never failed", "never fails", "is never failing", "had never failed"],
+    "choices": ["a. never failed", "b. never fails", "c. is never failing", "d. had never failed"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 11,
+    "question_answer": "b. never fails"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Ali got his credit card ......",
+    "subject": "English",
+    "tags": ["change", "to change", "changing", "changed"],
+    "choices": ["a. change", "b. to change", "c. changing", "d. changed"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 12,
+    "question_answer": "d. changed"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The ...... used a ladder to reach the top floors of the flats.",
+    "subject": "English",
+    "tags": ["Firefighters", "fire brigades", "fireworks", "fire alarms"],
+    "choices": ["a. Firefighters", "b. fire brigades", "c. fireworks", "d. fire alarms"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 13,
+    "question_answer": "a. Firefighters"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "The book ...... well.",
+    "subject": "English",
+    "tags": ["is to have revised", "is to be revised", "is to revise", "is to be revising"],
+    "choices": ["a. is to have revised", "b. is to be revised", "c. is to revise", "d. is to be revising"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 14,
+    "question_answer": "b. is to be revised"
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "She asked me whether ...... there before.",
+    "subject": "English",
+    "tags": ["I had been", "I went", "I had had", "had I been", "reading_comprehension"],
+    "choices": ["a. I had been", "b. I went", "c. I had had", "d. had I been"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 15,
+    "question_answer": "a. I had been",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "She asked me whether I had been there before. I told her that I had visited the place several times in the past, but not recently. She seemed interested in my experiences and wanted to know more about what I had seen and done during my previous visits."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "I'll ...... you on Saturday morning to let you know the result of this interview.",
+    "subject": "English",
+    "tags": ["connect", "communicate", "contact", "attach", "reading_comprehension"],
+    "choices": ["a. connect", "b. communicate", "c. contact", "d. attach"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 16,
+    "question_answer": "c. contact",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "I'll contact you on Saturday morning to let you know the result of this interview. Please make sure your phone is switched on and you're available to take my call. The decision will be final, and I'll be able to answer any questions you might have about the next steps."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "Do not return until you have accomplished your ...... .",
+    "subject": "English",
+    "tags": ["session", "mission", "tension", "procession", "reading_comprehension"],
+    "choices": ["a. session", "b. mission", "c. tension", "d. procession"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 17,
+    "question_answer": "b. mission",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "Do not return until you have accomplished your mission. This task is of utmost importance, and failure is not an option. We're counting on you to complete it successfully and report back only when you've achieved the desired outcome."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "He's a ...... of the Royal College of Surgeons.",
+    "subject": "English",
+    "tags": ["follower", "foe", "following", "fellow", "reading_comprehension"],
+    "choices": ["a. follower", "b. foe", "c. following", "d. fellow"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 18,
+    "question_answer": "d. fellow",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "He's a fellow of the Royal College of Surgeons. This prestigious position recognizes his significant contributions to the field of medicine and his exceptional surgical skills. As a fellow, he's now entitled to certain privileges and responsibilities within the organization."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "You might find it ...... to consult a financial adviser.",
+    "subject": "English",
+    "tags": ["worthwhile", "freelance", "pressured", "conscientious", "reading_comprehension"],
+    "choices": ["a. worthwhile", "b. freelance", "c. pressured", "d. conscientious"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 19,
+    "question_answer": "a. worthwhile",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "You might find it worthwhile to consult a financial adviser. Given the complexity of your financial situation and your long-term goals, professional advice could help you make better decisions and avoid costly mistakes. Many people in similar circumstances have benefited greatly from such consultations."
+    }
+  },
+  {
+    "title": "Reading Comprehension",
+    "content": "He ...... his style of painting while working as a magazine illustrator.",
+    "subject": "English",
+    "tags": ["evacuated", "evaluated", "evolved", "provoked", "reading_comprehension"],
+    "choices": ["a. evacuated", "b. evaluated", "c. evolved", "d. provoked"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 20,
+    "question_answer": "c. evolved",
+    "meta_data": {
+      "type": "english_paragraph",
+      "data": "He evolved his style of painting while working as a magazine illustrator. Over the years, his technique became more refined and distinctive, blending traditional methods with innovative approaches. This artistic development eventually led to his recognition as a leading figure in contemporary art."
+    }
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "It may be necessary to ...... the patient to intensive care.",
+    "subject": "English",
+    "tags": ["neglect", "remove", "move", "prove"],
+    "choices": ["a. neglect", "b. remove", "c. move", "d. prove"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 21,
+    "question_answer": "c. move"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "What is the ...... between 'amateur' and 'professional'?",
+    "subject": "English",
+    "tags": ["distinction", "distinct", "distinctive", "destination"],
+    "choices": ["a. distinction", "b. distinct", "c. distinctive", "d. destination"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 22,
+    "question_answer": "a. distinction"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Amber is a semi-precious stone that is actually ...... sap.",
+    "subject": "English",
+    "tags": ["hard", "harden", "hardened", "molten"],
+    "choices": ["a. hard", "b. harden", "c. hardened", "d. molten"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 23,
+    "question_answer": "c. hardened"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "That was the most ...... film I have ever seen.",
+    "subject": "English",
+    "tags": ["depression", "depress", "depressed", "depressive"],
+    "choices": ["a. depression", "b. depress", "c. depressed", "d. depressive"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 24,
+    "question_answer": "d. depressive"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "What do you think ...... the statue to fall?",
+    "subject": "English",
+    "tags": ["demolished", "made", "caused", "divided"],
+    "choices": ["a. demolished", "b. made", "c. caused", "d. divided"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 25,
+    "question_answer": "c. caused"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I haven't seen my cousin in England for five years. I'm sure she ...... a lot!",
+    "subject": "English",
+    "tags": ["will grow", "will be growing", "will have grown", "'ll have been grown"],
+    "choices": ["a. will grow", "b. will be growing", "c. will have grown", "d. 'll have been grown"],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 26,
+    "question_answer": "c. will have grown"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "We accept graduates ...... Oxford University.",
+    "subject": "English",
+    "tags": ["in", "from", "of", "off"],
+    "choices": ["a. in", "b. from", "c. of", "d. off"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 27,
+    "question_answer": "b. from"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "I'm eager to know your ...... routine.",
+    "subject": "English",
+    "tags": ["week", "weeks", "week's", "weekly"],
+    "choices": ["a. week", "b. weeks", "c. week's", "d. weekly"],
+    "difficulty": "easy",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 28,
+    "question_answer": "d. weekly"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "It is a common ...... that education has the power to advanced countries.",
+    "subject": "English",
+    "tags": ["believing", "believe", "belief", "believer"],
+    "choices": ["a. believing", "b. believe", "c. belief", "d. believer"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 29,
+    "question_answer": "c. belief"
+  },
+  {
+    "title": "Grammar/Vocabulary",
+    "content": "Wasn't that very ...... ?",
+    "subject": "English",
+    "tags": ["confused", "confuse", "confusing", "confusingly"],
+    "choices": ["a. confused", "b. confuse", "c. confusing", "d. confusingly"],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 30,
+    "question_answer": "c. confusing"
+  },
+  {
+    "title": "Literature",
+    "content": "How would Rassendyll benefit from visiting the Princess?",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. She would agree to marry him.",
+      "b. He would gain more popularity.",
+      "c. He would enjoy talking with her.",
+      "d. She would fall in love with him."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 31,
+    "question_answer": "b. He would gain more popularity."
+  },
+  {
+    "title": "Literature",
+    "content": "Rupert killed Michael because ......",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. He hated him",
+      "b. Michael spoke badly with him.",
+      "c. He loved Antoinette De Mauban.",
+      "d. Rupert thought of the reward."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 32,
+    "question_answer": "d. Rupert thought of the reward."
+  },
+  {
+    "title": "Literature",
+    "content": "Who was namely declared King of Ruritania?",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. Rudolf Elphberg",
+      "b. Rudolf Rassendyll.",
+      "c. Robert Rassendyll.",
+      "d. Duke Michael."
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 33,
+    "question_answer": "a. Rudolf Elphberg"
+  },
+  {
+    "title": "Literature",
+    "content": "Why didn't Sapt shoot Duke Michael when he saw him in the forest with Max Holf?",
+    "subject": "English",
+    "tags": ["The Prisoner of Zenda", "literature"],
+    "choices": [
+      "a. He realized Max Holf was innocent",
+      "b. He realized Michael deserved to be killed",
+      "c. He was afraid of punishment",
+      "d. It wouldn't have helped the king at that moment"
+    ],
+    "difficulty": "medium",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 34,
+    "question_answer": "d. It wouldn't have helped the king at that moment"
+  },
+  {
+    "title": "Writing",
+    "content": "Supply the missing parts in the following dialogue: A and B are at the Mall. 'I have never seen such a big mall.'",
+    "subject": "English",
+    "tags": ["dialogue", "writing"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 35,
+    "question_answer": "Sample answer:\n1. Wow you are totally right.\n2. Let's start on level three.\n3. Why not level one or two?\n4. Take the electronic stairs.\n5. What is special about it?\n6. Wonderful. / It has a beautiful design."
+  },
+  {
+    "title": "Writing",
+    "content": "Write a paragraph of about (120 words) on ONE (1) of the following: a. Charity work b. The effects of technology in our life",
+    "subject": "English",
+    "tags": ["essay", "charity", "technology"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 36,
+    "question_answer": "Sample answer: Technology has profoundly transformed our lives in both positive and negative ways. On one hand, it has made communication instantaneous, provided access to vast information, and improved healthcare through advanced medical equipment. On the other hand, excessive screen time has reduced face-to-face interactions, and privacy concerns have emerged with data collection. While technology increases productivity, it also creates dependency, making basic skills like mental arithmetic less common. The key is finding balance – leveraging technology's benefits while maintaining essential human connections and skills. Ultimately, technology is a tool whose impact depends on how we choose to use it in our daily lives."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into Arabic: 'In the present financial climate, all people are struggling to survive.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 37,
+    "question_answer": "في الظرف المالي الحالي، يعاني جميع الناس للبقاء على قيد الحياة."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into Arabic: 'One of the main advantages of this hotel is that it is comfortable and luxurious.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 38,
+    "question_answer": "إحدى المزايا الرئيسية لهذا الفندق هي أنه مريح وفاخر."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into English: 'يجب على الوالدين توجيه ورعاية أطفالهم لمواصلة رحلة الحياة بأمان.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 39,
+    "question_answer": "Parents must direct and look after their children to continue the journey of life safely."
+  },
+  {
+    "title": "Translation",
+    "content": "Translate into English: 'قد يكون ندرة المياه سببًا في اندلاع الحروب بين الدول في المستقبل.'",
+    "subject": "English",
+    "tags": ["translation", "arabic", "english"],
+    "choices": [],
+    "difficulty": "hard",
+    "grade": 12,
+    "exam_paper_id": "16af61f0-d022-4a37-a39f-946c8dfafbeb",
+    "question_number": 40,
+    "question_answer": "Water scarcity may be a cause of wars between countries in the future."
+  }
+]
+}
