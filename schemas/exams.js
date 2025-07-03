@@ -68,6 +68,11 @@ const examSchemas = {
         type: 'string',
         default: 'egypt',
         description: 'Region or country of the exam (default: egypt)'
+      },
+      exam_version: {
+        type: 'integer',
+        default: 1,
+        description: 'Version of the exam paper (default: 1)'
       }
     }
   },

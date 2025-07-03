@@ -31,6 +31,15 @@ const questionSchemas = {
       grade: {
         type: 'string',
         description: 'Target grade level'
+      },
+      question_answer: {
+        type: 'string',
+        description: 'Correct answer for the question'
+      },
+      verified_by_teacher: {
+        type: 'boolean',
+        default: false,
+        description: 'Whether the AI-generated question is verified by a teacher'
       }
     }
   },
@@ -133,4 +142,4 @@ const questionSchemas = {
   }
 };
 
-module.exports = questionSchemas; 
+module.exports = questionSchemas;

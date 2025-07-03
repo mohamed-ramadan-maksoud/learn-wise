@@ -115,6 +115,7 @@ async function runMigrations() {
           uploader_id UUID REFERENCES users(id) ON DELETE CASCADE,
           download_count INTEGER DEFAULT 0,
           embedding VECTOR(1024),
+          exam_mode VARCHAR(10) DEFAULT 'real' CHECK (exam_mode IN ('real', 'mock', 'guide')),
           created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
           updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
         );

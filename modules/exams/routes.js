@@ -38,9 +38,22 @@ async function examRoutes(fastify, options) {
       const examData = request.body;
       const userId = request.user.id;
 
-      // Set defaults for exam_type and region if not provided
+      // Set defaults for exam_type, exam_mode, and region if not provided
       if (!examData.exam_type) examData.exam_type = 'final';
+      if (!examData.exam_mode) examData.exam_mode = 'real';
       if (!examData.region) examData.region = 'egypt';
+      if (!examData.exam_version) examData.exam_version = 1;
+
+      // Validate exam_type
+      const allowedExamTypes = ['midterm', 'final', 'quiz'];
+      if (!allowedExamTypes.includes(examData.exam_type)) {
+        examData.exam_type = 'final';
+      }
+      // Validate exam_mode
+      const allowedExamModes = ['real', 'mock', 'guide'];
+      if (!allowedExamModes.includes(examData.exam_mode)) {
+        examData.exam_mode = 'real';
+      }
 
       // Generate embedding for the exam paper
       const examText = `${examData.title} ${examData.description || ''} ${examData.subject}`;
@@ -64,7 +77,8 @@ async function examRoutes(fastify, options) {
           file_url: examData.fileUrl,
           answer_key_url: examData.answerKeyUrl,
           uploader_id: userId,
-          embedding: embedding
+          embedding: embedding,
+          exam_version: examData.exam_version || 1
         }])
         .select(`
           *,
@@ -702,7 +716,7 @@ async function examRoutes(fastify, options) {
         question_number: q.question_number,
         meta_data: q.meta_data || {},
         choices: q.choices || (q.tags ? q.tags : undefined),
-        embedding: q.embedding || await generateEmbedding(`${q.title} ${q.content}`)
+        embedding: q.embedding || await generateEmbedding(q.content)
       })));
       const { data, error } = await fastify.supabase
         .from('questions')
@@ -711,7 +725,10 @@ async function examRoutes(fastify, options) {
       if (error) throw error;
       reply.send({ success: true, inserted: data.length, questions: data });
     } catch (error) {
-      reply.code(400).send({ success: false, message: error.message });
+      reply.code(400).send({
+        success: false,
+        message: error.message
+      });
     }
   });
 }
