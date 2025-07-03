@@ -75,11 +75,16 @@ async function aiRoutes(fastify) {
     try {
       if (searchType === 'rag') {
         const result = await aiService.generateRAGAnswerAndSave(query, searchTypes, maxResults, structured, subject);
+        // Patch: Add answer field to each generated_similar_questions if present
+        const generatedWithAnswer = (result.generated_similar_questions || []).map(q => ({
+          ...q,
+          answer: q.answer || ''
+        }));
         reply.send({
           success: true,
           query_answer: result.query_answer || '',
           question_exam_answer: result.question_exam_answer || '',
-          generated_similar_questions: result.generated_similar_questions || [],
+          generated_similar_questions: generatedWithAnswer,
           answer: result.answer || '',
           sources: result.sources || [],
           query: result.query || query,
@@ -110,7 +115,8 @@ async function aiRoutes(fastify) {
           subject: q.subject || '',
           difficulty: q.difficulty || '',
           topic: q.topic || '',
-          choices: q.choices || []
+          choices: q.choices || [],
+          answer: q.answer || ''
         }));
         
         // Limit to max 10 and randomize if more than 10
