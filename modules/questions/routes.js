@@ -39,8 +39,7 @@ async function questionRoutes(fastify, options) {
       const userId = request.user.id;
 
       // Generate embedding for the question
-      const questionText = `${questionData.title} ${questionData.content}`;
-      const embedding = await generateEmbedding(questionText);
+      const embedding = await generateEmbedding(questionData.content);
 
       // Create question
       const { data: question, error } = await fastify.supabase
@@ -572,4 +571,4 @@ async function questionRoutes(fastify, options) {
   });
 }
 
-module.exports = questionRoutes; 
+module.exports = questionRoutes;
