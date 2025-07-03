@@ -9,18 +9,41 @@ class AIHelper {
    */
   static formatItems(items, typeLabel, similarItems, examMetaMap = {}) {
     if (typeLabel === 'question') {
-      return items.map(item => ({
-        id: item.id,
-        type: typeLabel,
-        title: item.title,
-        content: item.content || item.description || '',
-        tags: item.tags,
-        grade: item.grade,
-        choices: item.choices || [],
-        meta_data: item.meta_data || undefined,
-        similarity: similarItems.find(s => s.id === item.id)?.similarity || 0,
-        examMeta: item.exam_paper_id ? examMetaMap[item.exam_paper_id] : undefined
-      }));
+      return items.map(item => {
+        const examMetaObj = item.exam_paper_id ? examMetaMap[item.exam_paper_id] : undefined;
+        // Debug log for exam_paper_id and examMetaObj
+                 console.log('[AIHelper] Question ID:', item.id, 'exam_paper_id:', item.exam_paper_id, 'examMetaObj:', examMetaObj);
+
+        if (item.exam_paper_id) {
+          console.log('[AIHelper] Question ID:', item.id, 'exam_paper_id:', item.exam_paper_id, 'examMetaObj:', examMetaObj);
+        }
+        // Warn if examMetaObj is empty or missing
+        if (item.exam_paper_id && (!examMetaObj || (typeof examMetaObj === 'object' && !Array.isArray(examMetaObj) && Object.keys(examMetaObj).length === 0))) {
+          console.log('[AIHelper] examMetaObj is empty or missing for exam_paper_id:', item.exam_paper_id, 'item.id:', item.id);
+        }
+        // Only include examMeta if it is a plain object and has at least one non-empty, non-null, non-undefined property
+        let hasExamMeta = false;
+        if (
+          examMetaObj &&
+          typeof examMetaObj === 'object' &&
+          !Array.isArray(examMetaObj) &&
+          Object.values(examMetaObj).some(v => v !== null && v !== undefined && v !== '')
+        ) {
+          hasExamMeta = true;
+        }
+        return {
+          id: item.id,
+          type: typeLabel,
+          title: item.title,
+          content: item.content || item.description || '',
+          tags: item.tags,
+          grade: item.grade,
+          choices: item.choices || [],
+          meta_data: item.meta_data || undefined,
+          similarity: similarItems.find(s => s.id === item.id)?.similarity || 0,
+          ...(hasExamMeta ? { examMeta: examMetaObj } : {})
+        };
+      });
     } else {
       return items.map(item => ({
         id: item.id,
@@ -30,18 +53,6 @@ class AIHelper {
         similarity: similarItems.find(s => s.id === item.id)?.similarity || 0
       }));
     }
-  }
-
-  /**
-   * Extract unique exam paper IDs from items
-   */
-  static extractExamPaperIds(items) {
-    const examPaperIds = items
-      .map(item => item.exam_paper_id)
-      .filter(id => id !== null && id !== undefined);
-
-    // Return unique IDs only
-    return [...new Set(examPaperIds)];
   }
 
   /**
@@ -128,6 +139,13 @@ class AIHelper {
         }
       ]
     };
+  }
+
+  /**
+   * Extract unique exam paper IDs from questions
+   */
+  static extractExamPaperIds(items) {
+    return [...new Set(items.map(q => q.exam_paper_id).filter(Boolean))];
   }
 }
 
