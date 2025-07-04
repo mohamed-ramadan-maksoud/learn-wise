@@ -51,6 +51,7 @@ const questionSchemas = {
       content: { type: 'string' },
       subject: { type: 'string' },
       tags: { type: 'array', items: { type: 'string' } },
+      choices: { type: 'array', items: { type: 'string' } },
       difficulty: { type: 'string' },
       grade: { type: 'string' },
       authorId: { type: 'string' },
